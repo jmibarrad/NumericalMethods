@@ -1,0 +1,697 @@
+Compilación iniciada a las 24/04/2015 17:40:59.
+Invalidando el destino "GetFrameworkPaths" del proyecto"C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" con el destino "GetFrameworkPaths" del proyecto "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.NETFramework.targets".
+Invalidando el destino "SatelliteDllsProjectOutputGroup" del proyecto"C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" con el destino "SatelliteDllsProjectOutputGroup" del proyecto "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFX.targets".
+Proyecto "C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj" en nodo 1 (destinos predeterminados).
+Compilando con la versión de herramientas "4.0".
+Destino "_CheckForInvalidConfigurationAndPlatform" en el archivo "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" del proyecto "C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj" (punto de entrada):
+Se omitió la tarea "Error" debido a una condición falsa (False); ( '$(_InvalidConfigurationError)' == 'true' ) se evaluó como ( '' == 'true' ).
+Se omitió la tarea "Warning" debido a una condición falsa (False); ( '$(_InvalidConfigurationWarning)' == 'true' ) se evaluó como ( '' == 'true' ).
+Usando la tarea "Message" del ensamblado "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Tarea "Message"
+  Configuration=Release
+Ejecución de la tarea "Message" terminada.
+Tarea "Message"
+  Platform=AnyCPU
+Ejecución de la tarea "Message" terminada.
+Se omitió la tarea "Error" debido a una condición falsa (False); ('$(OutDir)' != '' and !HasTrailingSlash('$(OutDir)')) se evaluó como ('bin\Release\' != '' and !HasTrailingSlash('bin\Release\')).
+Se omitió la tarea "Error" debido a una condición falsa (False); ('$(BaseIntermediateOutputPath)' != '' and !HasTrailingSlash('$(BaseIntermediateOutputPath)')) se evaluó como ('obj\' != '' and !HasTrailingSlash('obj\')).
+Se omitió la tarea "Error" debido a una condición falsa (False); ('$(IntermediateOutputPath)' != '' and !HasTrailingSlash('$(IntermediateOutputPath)')) se evaluó como ('obj\Release\' != '' and !HasTrailingSlash('obj\Release\')).
+Compilación terminada del destino "_CheckForInvalidConfigurationAndPlatform" en el proyecto "GroupBar_2010.csproj".
+Se omitió el destino "EntityDeploy" debido a una condición falsa (False); ('@(EntityDeploy)' != '') se evaluó como ('' != '').
+Destino "BeforeBuild" en el archivo "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" del proyecto "C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj" (el destino "Build" depende de él):
+Compilación terminada del destino "BeforeBuild" en el proyecto "GroupBar_2010.csproj".
+Destino "BuildOnlySettings" en el archivo "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" del proyecto "C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj" (el destino "CoreBuild" depende de él):
+Compilación terminada del destino "BuildOnlySettings" en el proyecto "GroupBar_2010.csproj".
+Destino "GetFrameworkPaths" en el archivo "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.NETFramework.targets" del proyecto "C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj" (el destino "PrepareForBuild" depende de él):
+Compilación terminada del destino "GetFrameworkPaths" en el proyecto "GroupBar_2010.csproj".
+Se omitió el destino "GetWinFXPath" debido a una condición falsa (False); (('@(Page)' != '' or '@(ApplicationDefinition)' != '' or '@(Resource)' != '') and ('$(GetWinFXNativePath)' != '' or '$(GetWinFXWoWPath)' != '' )) se evaluó como (('' != '' or '' != '' or '' != '') and ('' != '' or '' != '' )).
+Destino "GetReferenceAssemblyPaths" en el archivo "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" del proyecto "C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj" (el destino "PrepareForBuild" depende de él):
+Se omitió la tarea "GetReferenceAssemblyPaths" debido a una condición falsa (False); ('$(TargetFrameworkMoniker)' != '' and ('$(_TargetFrameworkDirectories)' == '' or '$(_FullFrameworkReferenceAssemblyPaths)' == '')) se evaluó como ('.NETFramework,Version=v4.0' != '' and ('C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == '' or 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == '')).
+Compilación terminada del destino "GetReferenceAssemblyPaths" en el proyecto "GroupBar_2010.csproj".
+Destino "PrepareForBuild" en el archivo "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" del proyecto "C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj" (el destino "CoreBuild" depende de él):
+Usando la tarea "FindAppConfigFile" del ensamblado "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Tarea "FindAppConfigFile"
+Ejecución de la tarea "FindAppConfigFile" terminada.
+Usando la tarea "MakeDir" del ensamblado "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Tarea "MakeDir"
+  Creando directorio "bin\Release\".
+  Creando directorio "obj\Release\".
+Ejecución de la tarea "MakeDir" terminada.
+Compilación terminada del destino "PrepareForBuild" en el proyecto "GroupBar_2010.csproj".
+Se omitió el destino "PreBuildEvent" debido a una condición falsa (False); ('$(PreBuildEvent)'!='') se evaluó como (''!='').
+Destino "BeforeResolveReferences" en el archivo "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" del proyecto "C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj" (el destino "ResolveReferences" depende de él):
+Compilación terminada del destino "BeforeResolveReferences" en el proyecto "GroupBar_2010.csproj".
+Se omitió el destino "AssignProjectConfiguration" debido a una condición falsa (False); ('$(CurrentSolutionConfigurationContents)' != '' or '@(ProjectReference)'!='') se evaluó como ('' != '' or ''!='').
+Se omitió el destino "AssignProjectConfiguration" debido a una condición falsa (False); ('$(CurrentSolutionConfigurationContents)' != '' or '@(ProjectReference)'!='') se evaluó como ('' != '' or ''!='').
+Destino "_SplitProjectReferencesByFileExistence" en el archivo "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" del proyecto "C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj" (el destino "ResolveProjectReferences" depende de él):
+Se omitió la tarea "ResolveNonMSBuildProjectOutput" debido a una condición falsa (False); ('$(BuildingInsideVisualStudio)'=='true' and '@(ProjectReferenceWithConfiguration)'!='') se evaluó como (''=='true' and ''!='').
+Compilación terminada del destino "_SplitProjectReferencesByFileExistence" en el proyecto "GroupBar_2010.csproj".
+Destino "ResolveProjectReferences" en el archivo "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" del proyecto "C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj" (el destino "ResolveReferences" depende de él):
+Se omitió la tarea "MSBuild" debido a una condición falsa (False); ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' != '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') se evaluó como ('' == 'true' and '' != '' and ('' == 'true' or 'true' != 'true') and '11.0' != '10.0' and '' != '').
+Se omitió la tarea "MSBuild" debido a una condición falsa (False); ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' == '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') se evaluó como ('' == 'true' and '' != '' and ('' == 'true' or 'true' != 'true') and '11.0' == '10.0' and '' != '').
+Se omitió la tarea "MSBuild" debido a una condición falsa (False); ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingInsideVisualStudio)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') se evaluó como ('' == 'true' and '' != '' and '' != 'true' and 'true' == 'true' and '' != '').
+Se omitió la tarea "MSBuild" debido a una condición falsa (False); ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingProject)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') se evaluó como ('' == 'true' and '' != '' and 'true' == 'true' and '' != '').
+Se omitió la tarea "Warning" debido a una condición falsa (False); ('@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceNonexistent)' != '') se evaluó como ('' != '' and '' != '').
+Compilación terminada del destino "ResolveProjectReferences" en el proyecto "GroupBar_2010.csproj".
+Se omitió el destino "ResolveNativeReferences" debido a una condición falsa (False); ('@(NativeReference)'!='') se evaluó como (''!='').
+Se omitió el destino "GetFrameworkPaths". Compilado previamente de forma correcta.
+Se omitió el destino "GetReferenceAssemblyPaths". Compilado previamente de forma correcta.
+Se omitió el destino "PrepareForBuild". Compilado previamente de forma correcta.
+Destino "GetInstalledSDKLocations" en el archivo "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" del proyecto "C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj" (el destino "ResolveSDKReferences" depende de él):
+Se omitió la tarea "GetInstalledSDKLocations" debido a una condición falsa (False); ('@(SDKReference)' != '') se evaluó como ('' != '').
+Compilación terminada del destino "GetInstalledSDKLocations" en el proyecto "GroupBar_2010.csproj".
+Destino "ResolveSDKReferences" en el archivo "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" del proyecto "C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj" (el destino "ResolveAssemblyReferences" depende de él):
+Se omitió la tarea "ResolveSDKReference" debido a una condición falsa (False); ('@(SDKReference)'!='') se evaluó como (''!='').
+Compilación terminada del destino "ResolveSDKReferences" en el proyecto "GroupBar_2010.csproj".
+Se omitió el destino "ResolveSDKReferences". Compilado previamente de forma correcta.
+Destino "ExpandSDKReferences" en el archivo "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" del proyecto "C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj" (el destino "ResolveAssemblyReferences" depende de él):
+Se omitió la tarea "GetSDKReferenceFiles" debido a una condición falsa (False); ('@(ResolvedSDKReference)'!='') se evaluó como (''!='').
+Compilación terminada del destino "ExpandSDKReferences" en el proyecto "GroupBar_2010.csproj".
+Destino "ResolveAssemblyReferences" en el archivo "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" del proyecto "C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj" (el destino "ResolveReferences" depende de él):
+Usando la tarea "ResolveAssemblyReference" del ensamblado "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Tarea "ResolveAssemblyReference"
+  TargetFrameworkMoniker:
+      .NETFramework,Version=v4.0
+  TargetFrameworkMonikerDisplayName:
+      .NET Framework 4
+  TargetedRuntimeVersion:
+      v4.0.30319
+  Assemblies:
+      EnvDTE
+      Syncfusion.Core
+          SpecificVersion = 'False'
+      Syncfusion.Grid.Base
+          SpecificVersion = 'False'
+      Syncfusion.Grid.Windows
+          SpecificVersion = 'False'
+      Syncfusion.Shared.Base
+          SpecificVersion = 'False'
+      Syncfusion.Shared.Windows
+          SpecificVersion = 'False'
+      Syncfusion.Tools.Base
+          SpecificVersion = 'False'
+      Syncfusion.Tools.Windows
+          SpecificVersion = 'False'
+      System
+      System.Data
+      System.Deployment
+      System.Design
+      System.Drawing
+      System.Drawing.Design
+      System.Runtime.Serialization.Formatters.Soap
+      System.Windows.Forms
+      System.Xml
+      Syncfusion.Core
+      System.Core
+  AssemblyFiles:
+      C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll
+  CandidateAssemblyFiles:
+  TargetFrameworkDirectories:
+      C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0
+  InstalledAssemblyTables:
+  IgnoreInstalledAssemblyTable:
+      False
+  SearchPaths:
+      {CandidateAssemblyFiles}
+      {HintPathFromItem}
+      {TargetFrameworkDirectory}
+      {Registry:Software\Microsoft\.NETFramework,v4.0,AssemblyFoldersEx}
+      {AssemblyFolders}
+      {GAC}
+      {RawFileName}
+      bin\Release\
+  AllowedAssemblyExtensions:
+      .winmd
+      .dll
+      .exe
+  AllowedRelatedFileExtensions:
+      .pdb
+      .xml
+      .pri
+  AppConfigFile:
+      
+  AutoUnify:
+      False
+  CopyLocalDependenciesWhenParentReferenceInGac:
+      True
+  FindDependencies:
+      True
+  TargetProcessorArchitecture:
+      x86
+  StateFile:
+      obj\Release\GroupBar_2010.csprojResolveAssemblyReference.cache
+  InstalledAssemblySubsetTables:
+  IgnoreInstalledAssemblySubsetTable:
+      False
+  TargetFrameworkSubsets:
+  FullTargetFrameworkSubsetNames:
+      Full
+  ProfileName:
+      
+  FullFrameworkFolders:
+      C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0
+  LatestTargetFrameworkDirectories:
+  ProfileTablesLocation:
+  Referencia principal unificada "mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+      Se usará esta versión en lugar de la versión original "1.0.3300.0" en "C:\Program Files (x86)\Common Files\Microsoft Shared\MSEnv\PublicAssemblies\EnvDTE.dll" porque existe una versión más reciente de este archivo de .NET Framework.
+      Se usará esta versión en lugar de la versión original "1.0.3300.0" en "C:\Program Files (x86)\Common Files\Microsoft Shared\MSEnv\PublicAssemblies\stdole.dll" porque existe una versión más reciente de este archivo de .NET Framework.
+      La ruta de acceso del archivo resuelta es "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll".
+      Se encontró una referencia en la ubicación de ruta de acceso de búsqueda "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll".
+      Esta referencia no es "CopyLocal" porque es un archivo necesario.
+      El valor de ImageRuntimeVersion para esta referencia es "v4.0.30319".
+  Referencia principal "EnvDTE, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+      La ruta de acceso del archivo resuelta es "C:\Program Files (x86)\Common Files\Microsoft Shared\MSEnv\PublicAssemblies\EnvDTE.dll".
+      Se encontró una referencia en la ubicación de ruta de acceso de búsqueda "{Registry:Software\Microsoft\.NETFramework,v4.0,AssemblyFoldersEx}".
+          Para SearchPath "{TargetFrameworkDirectory}".
+          Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\EnvDTE.winmd", pero no existía.
+          Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\EnvDTE.dll", pero no existía.
+          Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\EnvDTE.exe", pero no existía.
+          Para SearchPath "{Registry:Software\Microsoft\.NETFramework,v4.0,AssemblyFoldersEx}".
+          Ubicaciones de AssemblyFoldersEx consideradas.
+      Se encontró el archivo "C:\Program Files (x86)\Common Files\Microsoft Shared\MSEnv\PublicAssemblies\EnvDTE.xml" relacionado.
+      Esta referencia no es "CopyLocal" porque está registrada en la GAC.
+      El valor de ImageRuntimeVersion para esta referencia es "v1.0.3705".
+  Referencia principal "Syncfusion.Core, Version=13.1400.0.21, Culture=neutral, PublicKeyToken=632609b4d040f6b4".
+      La ruta de acceso del archivo resuelta es "C:\Program Files (x86)\Syncfusion\Essential Studio\13.1.0.21\Assemblies\4.0\Syncfusion.Core.dll".
+      Se encontró una referencia en la ubicación de ruta de acceso de búsqueda "{Registry:Software\Microsoft\.NETFramework,v4.0,AssemblyFoldersEx}".
+          Para SearchPath "{TargetFrameworkDirectory}".
+          Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Syncfusion.Core.winmd", pero no existía.
+          Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Syncfusion.Core.dll", pero no existía.
+          Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Syncfusion.Core.exe", pero no existía.
+          Para SearchPath "{Registry:Software\Microsoft\.NETFramework,v4.0,AssemblyFoldersEx}".
+          Ubicaciones de AssemblyFoldersEx consideradas.
+      Esta referencia no es "CopyLocal" porque está registrada en la GAC.
+      El valor de ImageRuntimeVersion para esta referencia es "v4.0.30319".
+  Referencia principal "Syncfusion.Grid.Base, Version=13.1400.0.21, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89".
+      La ruta de acceso del archivo resuelta es "C:\Program Files (x86)\Syncfusion\Essential Studio\13.1.0.21\Assemblies\4.0\Syncfusion.Grid.Base.dll".
+      Se encontró una referencia en la ubicación de ruta de acceso de búsqueda "{Registry:Software\Microsoft\.NETFramework,v4.0,AssemblyFoldersEx}".
+          Para SearchPath "{TargetFrameworkDirectory}".
+          Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Syncfusion.Grid.Base.winmd", pero no existía.
+          Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Syncfusion.Grid.Base.dll", pero no existía.
+          Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Syncfusion.Grid.Base.exe", pero no existía.
+          Para SearchPath "{Registry:Software\Microsoft\.NETFramework,v4.0,AssemblyFoldersEx}".
+          Ubicaciones de AssemblyFoldersEx consideradas.
+      Se encontró el archivo "C:\Program Files (x86)\Syncfusion\Essential Studio\13.1.0.21\Assemblies\4.0\Syncfusion.Grid.Base.xml" relacionado.
+      Esta referencia no es "CopyLocal" porque está registrada en la GAC.
+      El valor de ImageRuntimeVersion para esta referencia es "v4.0.30319".
+  Referencia principal "Syncfusion.Grid.Windows, Version=13.1400.0.21, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89".
+      La ruta de acceso del archivo resuelta es "C:\Program Files (x86)\Syncfusion\Essential Studio\13.1.0.21\Assemblies\4.0\Syncfusion.Grid.Windows.dll".
+      Se encontró una referencia en la ubicación de ruta de acceso de búsqueda "{Registry:Software\Microsoft\.NETFramework,v4.0,AssemblyFoldersEx}".
+          Para SearchPath "{TargetFrameworkDirectory}".
+          Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Syncfusion.Grid.Windows.winmd", pero no existía.
+          Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Syncfusion.Grid.Windows.dll", pero no existía.
+          Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Syncfusion.Grid.Windows.exe", pero no existía.
+          Para SearchPath "{Registry:Software\Microsoft\.NETFramework,v4.0,AssemblyFoldersEx}".
+          Ubicaciones de AssemblyFoldersEx consideradas.
+      Se encontró el archivo "C:\Program Files (x86)\Syncfusion\Essential Studio\13.1.0.21\Assemblies\4.0\Syncfusion.Grid.Windows.xml" relacionado.
+      Esta referencia no es "CopyLocal" porque está registrada en la GAC.
+      El valor de ImageRuntimeVersion para esta referencia es "v4.0.30319".
+  Referencia principal "Syncfusion.Shared.Base, Version=13.1400.0.21, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89".
+      La ruta de acceso del archivo resuelta es "C:\Program Files (x86)\Syncfusion\Essential Studio\13.1.0.21\Assemblies\4.0\Syncfusion.Shared.Base.dll".
+      Se encontró una referencia en la ubicación de ruta de acceso de búsqueda "{Registry:Software\Microsoft\.NETFramework,v4.0,AssemblyFoldersEx}".
+          Para SearchPath "{TargetFrameworkDirectory}".
+          Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Syncfusion.Shared.Base.winmd", pero no existía.
+          Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Syncfusion.Shared.Base.dll", pero no existía.
+          Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Syncfusion.Shared.Base.exe", pero no existía.
+          Para SearchPath "{Registry:Software\Microsoft\.NETFramework,v4.0,AssemblyFoldersEx}".
+          Ubicaciones de AssemblyFoldersEx consideradas.
+      Se encontró el archivo "C:\Program Files (x86)\Syncfusion\Essential Studio\13.1.0.21\Assemblies\4.0\Syncfusion.Shared.Base.xml" relacionado.
+      Esta referencia no es "CopyLocal" porque está registrada en la GAC.
+      El valor de ImageRuntimeVersion para esta referencia es "v4.0.30319".
+  Referencia principal "Syncfusion.Shared.Windows, Version=13.1400.0.21, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89".
+      La ruta de acceso del archivo resuelta es "C:\Program Files (x86)\Syncfusion\Essential Studio\13.1.0.21\Assemblies\4.0\Syncfusion.Shared.Windows.dll".
+      Se encontró una referencia en la ubicación de ruta de acceso de búsqueda "{Registry:Software\Microsoft\.NETFramework,v4.0,AssemblyFoldersEx}".
+          Para SearchPath "{TargetFrameworkDirectory}".
+          Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Syncfusion.Shared.Windows.winmd", pero no existía.
+          Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Syncfusion.Shared.Windows.dll", pero no existía.
+          Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Syncfusion.Shared.Windows.exe", pero no existía.
+          Para SearchPath "{Registry:Software\Microsoft\.NETFramework,v4.0,AssemblyFoldersEx}".
+          Ubicaciones de AssemblyFoldersEx consideradas.
+      Se encontró el archivo "C:\Program Files (x86)\Syncfusion\Essential Studio\13.1.0.21\Assemblies\4.0\Syncfusion.Shared.Windows.xml" relacionado.
+      Esta referencia no es "CopyLocal" porque está registrada en la GAC.
+      El valor de ImageRuntimeVersion para esta referencia es "v4.0.30319".
+  Referencia principal "Syncfusion.Tools.Base, Version=13.1400.0.21, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89".
+      La ruta de acceso del archivo resuelta es "C:\Program Files (x86)\Syncfusion\Essential Studio\13.1.0.21\Assemblies\4.0\Syncfusion.Tools.Base.dll".
+      Se encontró una referencia en la ubicación de ruta de acceso de búsqueda "{Registry:Software\Microsoft\.NETFramework,v4.0,AssemblyFoldersEx}".
+          Para SearchPath "{TargetFrameworkDirectory}".
+          Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Syncfusion.Tools.Base.winmd", pero no existía.
+          Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Syncfusion.Tools.Base.dll", pero no existía.
+          Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Syncfusion.Tools.Base.exe", pero no existía.
+          Para SearchPath "{Registry:Software\Microsoft\.NETFramework,v4.0,AssemblyFoldersEx}".
+          Ubicaciones de AssemblyFoldersEx consideradas.
+      Se encontró el archivo "C:\Program Files (x86)\Syncfusion\Essential Studio\13.1.0.21\Assemblies\4.0\Syncfusion.Tools.Base.xml" relacionado.
+      Esta referencia no es "CopyLocal" porque está registrada en la GAC.
+      El valor de ImageRuntimeVersion para esta referencia es "v4.0.30319".
+  Referencia principal "Syncfusion.Tools.Windows, Version=13.1400.0.21, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89".
+      La ruta de acceso del archivo resuelta es "C:\Program Files (x86)\Syncfusion\Essential Studio\13.1.0.21\Assemblies\4.0\Syncfusion.Tools.Windows.dll".
+      Se encontró una referencia en la ubicación de ruta de acceso de búsqueda "{Registry:Software\Microsoft\.NETFramework,v4.0,AssemblyFoldersEx}".
+          Para SearchPath "{TargetFrameworkDirectory}".
+          Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Syncfusion.Tools.Windows.winmd", pero no existía.
+          Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Syncfusion.Tools.Windows.dll", pero no existía.
+          Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Syncfusion.Tools.Windows.exe", pero no existía.
+          Para SearchPath "{Registry:Software\Microsoft\.NETFramework,v4.0,AssemblyFoldersEx}".
+          Ubicaciones de AssemblyFoldersEx consideradas.
+      Se encontró el archivo "C:\Program Files (x86)\Syncfusion\Essential Studio\13.1.0.21\Assemblies\4.0\Syncfusion.Tools.Windows.xml" relacionado.
+      Esta referencia no es "CopyLocal" porque está registrada en la GAC.
+      El valor de ImageRuntimeVersion para esta referencia es "v4.0.30319".
+  Referencia principal "System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+      La ruta de acceso del archivo resuelta es "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll".
+      Se encontró una referencia en la ubicación de ruta de acceso de búsqueda "{TargetFrameworkDirectory}".
+          Para SearchPath "{TargetFrameworkDirectory}".
+          Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.winmd", pero no existía.
+      Esta referencia no es "CopyLocal" porque es un archivo necesario.
+      El valor de ImageRuntimeVersion para esta referencia es "v4.0.30319".
+  Referencia principal "System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+      La ruta de acceso del archivo resuelta es "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll".
+      Se encontró una referencia en la ubicación de ruta de acceso de búsqueda "{TargetFrameworkDirectory}".
+          Para SearchPath "{TargetFrameworkDirectory}".
+          Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.winmd", pero no existía.
+      Esta referencia no es "CopyLocal" porque es un archivo necesario.
+      El valor de ImageRuntimeVersion para esta referencia es "v4.0.30319".
+  Referencia principal "System.Deployment, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+      La ruta de acceso del archivo resuelta es "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Deployment.dll".
+      Se encontró una referencia en la ubicación de ruta de acceso de búsqueda "{TargetFrameworkDirectory}".
+          Para SearchPath "{TargetFrameworkDirectory}".
+          Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Deployment.winmd", pero no existía.
+      Esta referencia no es "CopyLocal" porque es un archivo necesario.
+      El valor de ImageRuntimeVersion para esta referencia es "v4.0.30319".
+  Referencia principal "System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+      La ruta de acceso del archivo resuelta es "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Design.dll".
+      Se encontró una referencia en la ubicación de ruta de acceso de búsqueda "{TargetFrameworkDirectory}".
+          Para SearchPath "{TargetFrameworkDirectory}".
+          Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Design.winmd", pero no existía.
+      Esta referencia no es "CopyLocal" porque es un archivo necesario.
+      El valor de ImageRuntimeVersion para esta referencia es "v4.0.30319".
+  Referencia principal "System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+      La ruta de acceso del archivo resuelta es "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll".
+      Se encontró una referencia en la ubicación de ruta de acceso de búsqueda "{TargetFrameworkDirectory}".
+          Para SearchPath "{TargetFrameworkDirectory}".
+          Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.winmd", pero no existía.
+      Esta referencia no es "CopyLocal" porque es un archivo necesario.
+      El valor de ImageRuntimeVersion para esta referencia es "v4.0.30319".
+  Referencia principal "System.Drawing.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+      La ruta de acceso del archivo resuelta es "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.Design.dll".
+      Se encontró una referencia en la ubicación de ruta de acceso de búsqueda "{TargetFrameworkDirectory}".
+          Para SearchPath "{TargetFrameworkDirectory}".
+          Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.Design.winmd", pero no existía.
+      Esta referencia no es "CopyLocal" porque es un archivo necesario.
+      El valor de ImageRuntimeVersion para esta referencia es "v4.0.30319".
+  Referencia principal "System.Runtime.Serialization.Formatters.Soap, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+      La ruta de acceso del archivo resuelta es "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Runtime.Serialization.Formatters.Soap.dll".
+      Se encontró una referencia en la ubicación de ruta de acceso de búsqueda "{TargetFrameworkDirectory}".
+          Para SearchPath "{TargetFrameworkDirectory}".
+          Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Runtime.Serialization.Formatters.Soap.winmd", pero no existía.
+      Esta referencia no es "CopyLocal" porque es un archivo necesario.
+      El valor de ImageRuntimeVersion para esta referencia es "v4.0.30319".
+  Referencia principal "System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+      La ruta de acceso del archivo resuelta es "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll".
+      Se encontró una referencia en la ubicación de ruta de acceso de búsqueda "{TargetFrameworkDirectory}".
+          Para SearchPath "{TargetFrameworkDirectory}".
+          Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.winmd", pero no existía.
+      Esta referencia no es "CopyLocal" porque es un archivo necesario.
+      El valor de ImageRuntimeVersion para esta referencia es "v4.0.30319".
+  Referencia principal "System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+      La ruta de acceso del archivo resuelta es "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll".
+      Se encontró una referencia en la ubicación de ruta de acceso de búsqueda "{TargetFrameworkDirectory}".
+          Para SearchPath "{TargetFrameworkDirectory}".
+          Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.winmd", pero no existía.
+      Esta referencia no es "CopyLocal" porque es un archivo necesario.
+      El valor de ImageRuntimeVersion para esta referencia es "v4.0.30319".
+  Referencia principal "System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+      La ruta de acceso del archivo resuelta es "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll".
+      Se encontró una referencia en la ubicación de ruta de acceso de búsqueda "{TargetFrameworkDirectory}".
+          Para SearchPath "{TargetFrameworkDirectory}".
+          Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.winmd", pero no existía.
+      Esta referencia no es "CopyLocal" porque es un archivo necesario.
+      El valor de ImageRuntimeVersion para esta referencia es "v4.0.30319".
+  Dependencia "stdole, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+      La ruta de acceso del archivo resuelta es "C:\Program Files (x86)\Common Files\Microsoft Shared\MSEnv\PublicAssemblies\stdole.dll".
+      Se encontró una referencia en la ubicación de ruta de acceso de búsqueda "C:\Program Files (x86)\Common Files\Microsoft Shared\MSEnv\PublicAssemblies".
+          Para SearchPath "C:\Program Files (x86)\Common Files\Microsoft Shared\MSEnv\PublicAssemblies".
+          Se consideró "C:\Program Files (x86)\Common Files\Microsoft Shared\MSEnv\PublicAssemblies\stdole.winmd", pero no existía.
+      Requerido por "Syncfusion.Tools.Windows".
+      Requerido por "EnvDTE".
+      Esta referencia no es "CopyLocal" porque está registrada en la GAC.
+      El valor de ImageRuntimeVersion para esta referencia es "v1.0.3705".
+  Dependencia "UIAutomationProvider, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35".
+      La ruta de acceso del archivo resuelta es "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\UIAutomationProvider.dll".
+      Se encontró una referencia en la ubicación de ruta de acceso de búsqueda "{TargetFrameworkDirectory}".
+          Para SearchPath "C:\Program Files (x86)\Syncfusion\Essential Studio\13.1.0.21\Assemblies\4.0".
+          Se consideró "C:\Program Files (x86)\Syncfusion\Essential Studio\13.1.0.21\Assemblies\4.0\UIAutomationProvider.winmd", pero no existía.
+          Se consideró "C:\Program Files (x86)\Syncfusion\Essential Studio\13.1.0.21\Assemblies\4.0\UIAutomationProvider.dll", pero no existía.
+          Se consideró "C:\Program Files (x86)\Syncfusion\Essential Studio\13.1.0.21\Assemblies\4.0\UIAutomationProvider.exe", pero no existía.
+          Para SearchPath "{TargetFrameworkDirectory}".
+          Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\UIAutomationProvider.winmd", pero no existía.
+      Requerido por "Syncfusion.Tools.Windows".
+      Requerido por "Syncfusion.Grid.Windows".
+      Esta referencia no es "CopyLocal" porque es un archivo necesario.
+      El valor de ImageRuntimeVersion para esta referencia es "v4.0.30319".
+  Dependencia "WindowsBase, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35".
+      La ruta de acceso del archivo resuelta es "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\WindowsBase.dll".
+      Se encontró una referencia en la ubicación de ruta de acceso de búsqueda "{TargetFrameworkDirectory}".
+          Para SearchPath "C:\Program Files (x86)\Syncfusion\Essential Studio\13.1.0.21\Assemblies\4.0".
+          Se consideró "C:\Program Files (x86)\Syncfusion\Essential Studio\13.1.0.21\Assemblies\4.0\WindowsBase.winmd", pero no existía.
+          Se consideró "C:\Program Files (x86)\Syncfusion\Essential Studio\13.1.0.21\Assemblies\4.0\WindowsBase.dll", pero no existía.
+          Se consideró "C:\Program Files (x86)\Syncfusion\Essential Studio\13.1.0.21\Assemblies\4.0\WindowsBase.exe", pero no existía.
+          Para SearchPath "{TargetFrameworkDirectory}".
+          Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\WindowsBase.winmd", pero no existía.
+      Requerido por "Syncfusion.Tools.Windows".
+      Requerido por "Syncfusion.Grid.Windows".
+      Esta referencia no es "CopyLocal" porque es un archivo necesario.
+      El valor de ImageRuntimeVersion para esta referencia es "v4.0.30319".
+  Dependencia "UIAutomationTypes, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35".
+      La ruta de acceso del archivo resuelta es "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\UIAutomationTypes.dll".
+      Se encontró una referencia en la ubicación de ruta de acceso de búsqueda "{TargetFrameworkDirectory}".
+          Para SearchPath "C:\Program Files (x86)\Syncfusion\Essential Studio\13.1.0.21\Assemblies\4.0".
+          Se consideró "C:\Program Files (x86)\Syncfusion\Essential Studio\13.1.0.21\Assemblies\4.0\UIAutomationTypes.winmd", pero no existía.
+          Se consideró "C:\Program Files (x86)\Syncfusion\Essential Studio\13.1.0.21\Assemblies\4.0\UIAutomationTypes.dll", pero no existía.
+          Se consideró "C:\Program Files (x86)\Syncfusion\Essential Studio\13.1.0.21\Assemblies\4.0\UIAutomationTypes.exe", pero no existía.
+          Para SearchPath "{TargetFrameworkDirectory}".
+          Se consideró "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\UIAutomationTypes.winmd", pero no existía.
+      Requerido por "Syncfusion.Tools.Windows".
+      Requerido por "Syncfusion.Grid.Windows".
+      Esta referencia no es "CopyLocal" porque es un archivo necesario.
+      El valor de ImageRuntimeVersion para esta referencia es "v4.0.30319".
+  Ubicación de AssemblyFoldersEx: "{Registry:Software\Microsoft\.NETFramework,v4.0,AssemblyFoldersEx}"
+          C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\
+          C:\Program Files\Reference Assemblies\Microsoft\Workflow Manager\1.0\
+          
+          
+          C:\Program Files\Microsoft SDKs\Azure\.NET SDK\v2.4\ref\Caching\
+          C:\Program Files (x86)\Microsoft WCF Data Services\5.6\bin\.NETFramework\
+          C:\Program Files\Reference Assemblies\Microsoft\VSTO40\v4.0.Framework\
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\Visual Studio Tools for Office\PIA\Office15\
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\Visual Studio Tools for Office\PIA\Office14\
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\Visual Studio Tools for Office\PIA\Common\
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\Extensions\Microsoft\SharePoint\PublicAssemblies\
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\ReferenceAssemblies\v4.0\
+          C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\IDE\ReferenceAssemblies\v4.0\
+          C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\
+          C:\Program Files (x86)\Syncfusion\Essential Studio\13.1.0.21\Assemblies\4.0
+          
+          C:\Program Files\Common Files\Microsoft Shared\Web Server Extensions\15\TEMPLATE\WorkflowActivities\
+          C:\Program Files\Common Files\Microsoft Shared\Web Server Extensions\15\ISAPI\
+          C:\Program Files (x86)\Microsoft SDKs\RIA Services\v1.0\Libraries\Server\
+          C:\Program Files (x86)\Open XML SDK\V2.5\lib
+          C:\oraclexe\app\oracle\product\11.2.0\server\odp.net\bin\4
+          C:\Program Files (x86)\LCPI\OleDb.NET\1.0.0\NET4_5_1\
+          C:\Program Files (x86)\LCPI\OleDb.NET\1.0.0\NET4_5_0\
+          C:\Program Files (x86)\LCPI\OleDb.NET\1.0.0\NET4_0\
+          C:\Program Files (x86)\Reference Assemblies\Microsoft\FSharp\.NETFramework\v4.0\4.3.0.0\Type Providers\
+          C:\Program Files (x86)\Reference Assemblies\Microsoft\FSharp\.NETFramework\v4.0\4.3.0.0\
+          C:\Program Files (x86)\Reference Assemblies\Microsoft\FSharp\.NETFramework\v4.0\4.3.1.0\
+          C:\Program Files (x86)\Microsoft SDKs\Expression\Blend\.NETFramework\v4.0\Prototyping\Libraries\
+          C:\Program Files (x86)\Microsoft SDKs\Expression\Blend\.NETFramework\v4.0\Libraries\
+          C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v2.0\Assemblies\
+          C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\Assemblies\
+          C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET MVC 4\Assemblies\
+          C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET MVC 3\Assemblies\
+          C:\oraclexe\app\oracle\product\11.2.0\server\asp.net\bin\4
+          
+          C:\Program Files\Reference Assemblies\Microsoft\Microsoft Identity Extensions\1.0\
+          C:\Program Files (x86)\LCPI\OleDb.NET\1.0.0\NET3_5\
+          C:\Program Files\Common Files\Microsoft Shared\VS7DEBUG\Program Files\Reference Assemblies\Microsoft\VSTA30\v11.0\.NET2.0\
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\Extensions\Microsoft\SharePoint\PublicAssemblies\
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\ReferenceAssemblies\v2.0\
+          C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\IDE\ReferenceAssemblies\v2.0\
+          C:\Program Files (x86)\Syncfusion\Essential Studio\13.1.0.21\Assemblies\3.5
+          C:\Program Files\Microsoft SDKs\Azure\.NET SDK\v2.4\ref
+          C:\Program Files (x86)\Common Files\Microsoft Shared\MSEnv\PublicAssemblies\
+          C:\oraclexe\app\oracle\product\11.2.0\server\odp.net\bin\2.x
+          C:\Program Files (x86)\Microsoft Chart Controls\Assemblies
+          C:\Program Files (x86)\Reference Assemblies\Microsoft\FSharp\.NETFramework\v2.0\2.3.0.0\
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\Blend\
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\Blend\
+          C:\oraclexe\app\oracle\product\11.2.0\server\asp.net\bin\2.x
+          C:\Program Files\Microsoft SDKs\Azure\.NET SDK\v2.4\ref
+Ejecución de la tarea "ResolveAssemblyReference" terminada.
+Compilación terminada del destino "ResolveAssemblyReferences" en el proyecto "GroupBar_2010.csproj".
+Se omitió el destino "ResolveComReferences" debido a una condición falsa (False); ('@(COMReference)'!='' or '@(COMFileReference)'!='') se evaluó como (''!='' or ''!='').
+Destino "AfterResolveReferences" en el archivo "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" del proyecto "C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj" (el destino "ResolveReferences" depende de él):
+Compilación terminada del destino "AfterResolveReferences" en el proyecto "GroupBar_2010.csproj".
+Se omitió el destino "ImplicitlyExpandDesignTimeFacades" debido a una condición falsa (False); ('$(ImplicitlyExpandDesignTimeFacades)' == 'true') se evaluó como ('' == 'true').
+Destino "ResolveReferences" en el archivo "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" del proyecto "C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj" (el destino "CoreBuild" depende de él):
+Compilación terminada del destino "ResolveReferences" en el proyecto "GroupBar_2010.csproj".
+Se omitió el destino "XamlMarkupCompilePass1" debido a una condición falsa (False); ('@(XamlPage)' != '' or '@(XamlAppDef)' != '') se evaluó como ('' != '' or '' != '').
+Se omitió el destino "XamlMarkupCompileReadGeneratedFileList" debido a una condición falsa (False); ('@(XamlPage)' != '' or '@(XamlAppDef)' != '') se evaluó como ('' != '' or '' != '').
+Se omitió el destino "XamlMarkupCompileAddFilesGenerated" debido a una condición falsa (False); ('@(XamlPage)' != '' or '@(XamlAppDef)' != '') se evaluó como ('' != '' or '' != '').
+Se omitió el destino "XamlMarkupCompilePass2" debido a una condición falsa (False); ('$(XamlRequiresCompilationPass2)' == 'true' ) se evaluó como ('false' == 'true' ).
+Se omitió el destino "XamlMarkupCompileReadPass2Flag" debido a una condición falsa (False); ('@(XamlPage)' != '' or '@(XamlAppDef)' != '') se evaluó como ('' != '' or '' != '').
+Se omitió el destino "XamlMarkupCompileAddExtensionFilesGenerated" debido a una condición falsa (False); ('@(XamlPage)' != '' or '@(XamlAppDef)' != '') se evaluó como ('' != '' or '' != '').
+Se omitió el destino "MarkupCompilePass1" debido a una condición falsa (False); ('@(Page)' != '' or '@(ApplicationDefinition)' != '' ) se evaluó como ('' != '' or '' != '' ).
+Destino "AfterMarkupCompilePass1" en el archivo "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFX.targets" del proyecto "C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj" (el destino "PrepareResources" depende de él):
+Compilación terminada del destino "AfterMarkupCompilePass1" en el proyecto "GroupBar_2010.csproj".
+Se omitió el destino "MarkupCompilePass2ForMainAssembly" debido a una condición falsa (False); ('$(_RequireMCPass2ForMainAssembly)' == 'true' ) se evaluó como ('false' == 'true' ).
+Destino "FileClassification" en el archivo "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFX.targets" del proyecto "C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj" (el destino "PrepareResources" depende de él):
+Se omitió la tarea "FileClassifier" debido a una condición falsa (False); ('@(GeneratedBaml)' != '' or '@(Resource)' != '' or '@(Font)' != '') se evaluó como ('' != '' or '' != '' or '' != '').
+Se omitió la tarea "Message" debido a una condición falsa (False); ('$(MSBuildTargetsVerbose)'=='true') se evaluó como (''=='true').
+Se omitió la tarea "Message" debido a una condición falsa (False); ('$(MSBuildTargetsVerbose)'=='true') se evaluó como (''=='true').
+Compilación terminada del destino "FileClassification" en el proyecto "GroupBar_2010.csproj".
+Se omitió el destino "MainResourcesGeneration" debido a una condición falsa (False); ('@(MainEmbeddedFiles)' != '') se evaluó como ('' != '').
+Se omitió el destino "AssignWinFXEmbeddedResource" debido a una condición falsa (False); ('@(WinFXEmbeddedResource)' != '') se evaluó como ('' != '').
+Destino "AssignTargetPaths" en el archivo "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" del proyecto "C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj" (el destino "PrepareResourceNames" depende de él):
+Usando la tarea "AssignTargetPath" del ensamblado "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Tarea "AssignTargetPath"
+Ejecución de la tarea "AssignTargetPath" terminada.
+Tarea "AssignTargetPath"
+Ejecución de la tarea "AssignTargetPath" terminada.
+Tarea "AssignTargetPath"
+Ejecución de la tarea "AssignTargetPath" terminada.
+Tarea "AssignTargetPath"
+Ejecución de la tarea "AssignTargetPath" terminada.
+Se omitió la tarea "AssignTargetPath" debido a una condición falsa (False); ('@(_DeploymentBaseManifestWithTargetPath)'=='' and '%(None.Extension)'=='.manifest') se evaluó como (''=='' and ''=='.manifest').
+Compilación terminada del destino "AssignTargetPaths" en el proyecto "GroupBar_2010.csproj".
+Se omitió el destino "AssignTargetPaths". Compilado previamente de forma correcta.
+Destino "SplitResourcesByCulture" en el archivo "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" del proyecto "C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj" (el destino "PrepareResourceNames" depende de él):
+Se omitió la tarea "Warning" debido a una condición falsa (False); ('@(ResxWithNoCulture)'!='') se evaluó como (''!='').
+Se omitió la tarea "Warning" debido a una condición falsa (False); ('@(ResxWithCulture)'!='') se evaluó como (''!='').
+Se omitió la tarea "Warning" debido a una condición falsa (False); ('@(NonResxWithCulture)'!='') se evaluó como (''!='').
+Se omitió la tarea "Warning" debido a una condición falsa (False); ('@(NonResxWithNoCulture)'!='') se evaluó como (''!='').
+Usando la tarea "AssignCulture" del ensamblado "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Tarea "AssignCulture"
+  La referencia cultural "" se asignó al archivo "Form1.resx".
+  La referencia cultural "" se asignó al archivo "Properties\Resources.resx".
+Ejecución de la tarea "AssignCulture" terminada.
+Compilación terminada del destino "SplitResourcesByCulture" en el proyecto "GroupBar_2010.csproj".
+Destino "CreateManifestResourceNames" en el archivo "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.CSharp.targets" del proyecto "C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj" (el destino "PrepareResourceNames" depende de él):
+Usando la tarea "CreateCSharpManifestResourceName" del ensamblado "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Tarea "CreateCSharpManifestResourceName"
+  El espacio de nombres de la raíz es 'GroupBarDemo_2005'.
+  El archivo de recursos 'Form1.resx' depende de 'Form1.cs'.
+  El archivo de recursos 'Form1.resx' obtiene el nombre del recurso de manifiesto 'GroupBarDemo_2005.Form1'.
+  El archivo de recursos 'Properties\Resources.resx' no depende de ningún otro archivo.
+  El archivo de recursos 'Properties\Resources.resx' obtiene el nombre del recurso de manifiesto 'GroupBarDemo_2005.Properties.Resources'.
+Ejecución de la tarea "CreateCSharpManifestResourceName" terminada.
+Se omitió la tarea "CreateCSharpManifestResourceName" debido a una condición falsa (False); ('%(EmbeddedResource.ManifestResourceName)' == '' and '%(EmbeddedResource.WithCulture)' == 'true' and '%(EmbeddedResource.Type)' == 'Non-Resx') se evaluó como ('' == '' and 'false' == 'true' and 'Resx' == 'Non-Resx').
+Compilación terminada del destino "CreateManifestResourceNames" en el proyecto "GroupBar_2010.csproj".
+Destino "CreateCustomManifestResourceNames" en el archivo "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" del proyecto "C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj" (el destino "PrepareResourceNames" depende de él):
+Compilación terminada del destino "CreateCustomManifestResourceNames" en el proyecto "GroupBar_2010.csproj".
+Destino "PrepareResourceNames" en el archivo "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" del proyecto "C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj" (el destino "PrepareResources" depende de él):
+Compilación terminada del destino "PrepareResourceNames" en el proyecto "GroupBar_2010.csproj".
+Se omitió el destino "ResolveAssemblyReferences". Compilado previamente de forma correcta.
+Se omitió el destino "SplitResourcesByCulture". Compilado previamente de forma correcta.
+Destino "BeforeResGen" en el archivo "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" del proyecto "C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj" (el destino "ResGen" depende de él):
+Compilación terminada del destino "BeforeResGen" en el proyecto "GroupBar_2010.csproj".
+Destino "CoreResGen" en el archivo "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" del proyecto "C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj" (el destino "ResGen" depende de él):
+Usando la tarea "GenerateResource" del ensamblado "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Tarea "GenerateResource"
+  "C:\Program Files (x86)\Microsoft SDKs\Windows\v8.0A\bin\NETFX 4.0 Tools\resgen.exe" /useSourcePath /r:"C:\Program Files (x86)\Common Files\Microsoft Shared\MSEnv\PublicAssemblies\EnvDTE.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll" /r:"C:\Program Files (x86)\Syncfusion\Essential Studio\13.1.0.21\Assemblies\4.0\Syncfusion.Core.dll" /r:"C:\Program Files (x86)\Syncfusion\Essential Studio\13.1.0.21\Assemblies\4.0\Syncfusion.Grid.Base.dll" /r:"C:\Program Files (x86)\Syncfusion\Essential Studio\13.1.0.21\Assemblies\4.0\Syncfusion.Grid.Windows.dll" /r:"C:\Program Files (x86)\Syncfusion\Essential Studio\13.1.0.21\Assemblies\4.0\Syncfusion.Shared.Base.dll" /r:"C:\Program Files (x86)\Syncfusion\Essential Studio\13.1.0.21\Assemblies\4.0\Syncfusion.Shared.Windows.dll" /r:"C:\Program Files (x86)\Syncfusion\Essential Studio\13.1.0.21\Assemblies\4.0\Syncfusion.Tools.Base.dll" /r:"C:\Program Files (x86)\Syncfusion\Essential Studio\13.1.0.21\Assemblies\4.0\Syncfusion.Tools.Windows.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Deployment.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Design.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.Design.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Runtime.Serialization.Formatters.Soap.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /compile Form1.resx,obj\Release\GroupBarDemo_2005.Form1.resources Properties\Resources.resx,obj\Release\GroupBarDemo_2005.Properties.Resources.resources
+  Procesando archivo de recursos "Form1.resx" en "obj\Release\GroupBarDemo_2005.Form1.resources".
+  Procesando 28 recursos del archivo "Form1.resx".
+  Procesando archivo de recursos "Properties\Resources.resx" en "obj\Release\GroupBarDemo_2005.Properties.Resources.resources".
+  Procesando 0 recursos del archivo "Properties\Resources.resx".
+Ejecución de la tarea "GenerateResource" terminada.
+Se omitió la tarea "GenerateResource" debido a una condición falsa (False); ('%(EmbeddedResource.Type)' == 'Resx' and '%(EmbeddedResource.GenerateResource)' != 'false' and '$(GenerateResourceMSBuildRuntime)' == 'CLR2') se evaluó como ('Resx' == 'Resx' and '' != 'false' and 'CLR4' == 'CLR2').
+Compilación terminada del destino "CoreResGen" en el proyecto "GroupBar_2010.csproj".
+Destino "AfterResGen" en el archivo "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" del proyecto "C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj" (el destino "ResGen" depende de él):
+Compilación terminada del destino "AfterResGen" en el proyecto "GroupBar_2010.csproj".
+Destino "ResGen" en el archivo "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" del proyecto "C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj" (el destino "PrepareResources" depende de él):
+Compilación terminada del destino "ResGen" en el proyecto "GroupBar_2010.csproj".
+Se omitió el destino "CompileLicxFiles" debido a una condición falsa (False); ('@(_LicxFile)'!='') se evaluó como (''!='').
+Destino "PrepareResources" en el archivo "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" del proyecto "C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj" (el destino "CoreBuild" depende de él):
+Compilación terminada del destino "PrepareResources" en el proyecto "GroupBar_2010.csproj".
+Se omitió el destino "ResolveKeySource" debido a una condición falsa (False); ($(SignManifests) == 'true' or $(SignAssembly) == 'true') se evaluó como ( == 'true' or  == 'true').
+Se omitió el destino "ResolveReferences". Compilado previamente de forma correcta.
+Se omitió el destino "ResolveKeySource" debido a una condición falsa (False); ($(SignManifests) == 'true' or $(SignAssembly) == 'true') se evaluó como ( == 'true' or  == 'true').
+Se omitió el destino "ResolveComReferences" debido a una condición falsa (False); ('@(COMReference)'!='' or '@(COMFileReference)'!='') se evaluó como (''!='' or ''!='').
+Se omitió el destino "ResolveNativeReferences" debido a una condición falsa (False); ('@(NativeReference)'!='') se evaluó como (''!='').
+Se omitió el destino "_SetExternalWin32ManifestProperties" debido a una condición falsa (False); ('$(GenerateClickOnceManifests)'=='true' or '@(NativeReference)'!='' or '@(ResolvedIsolatedComModules)'!='') se evaluó como (''=='true' or ''!='' or ''!='').
+Destino "_SetEmbeddedWin32ManifestProperties" en el archivo "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" del proyecto "C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj" (el destino "SetWin32ManifestProperties" depende de él):
+Usando la tarea "GetFrameworkPath" del ensamblado "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Tarea "GetFrameworkPath"
+Ejecución de la tarea "GetFrameworkPath" terminada.
+Compilación terminada del destino "_SetEmbeddedWin32ManifestProperties" en el proyecto "GroupBar_2010.csproj".
+Destino "SetWin32ManifestProperties" en el archivo "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" del proyecto "C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj" (el destino "Compile" depende de él):
+Compilación terminada del destino "SetWin32ManifestProperties" en el proyecto "GroupBar_2010.csproj".
+Destino "_GenerateCompileInputs" en el archivo "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" del proyecto "C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj" (el destino "Compile" depende de él):
+Se omitió la tarea "Warning" debido a una condición falsa (False); ('@(ManifestResourceWithNoCulture)'!='' and '%(ManifestResourceWithNoCulture.EmittedForCompatibilityOnly)'=='') se evaluó como ('obj\Release\GroupBarDemo_2005.Form1.resources;obj\Release\GroupBarDemo_2005.Properties.Resources.resources'!='' and 'true'=='').
+Se omitió la tarea "Warning" debido a una condición falsa (False); ('@(ManifestNonResxWithNoCultureOnDisk)'!='' and '%(ManifestNonResxWithNoCultureOnDisk.EmittedForCompatibilityOnly)'=='') se evaluó como (''!='' and ''=='').
+Compilación terminada del destino "_GenerateCompileInputs" en el proyecto "GroupBar_2010.csproj".
+Se omitió el destino "PrepareForBuild". Compilado previamente de forma correcta.
+Se omitió el destino "GetReferenceAssemblyPaths". Compilado previamente de forma correcta.
+Destino "_SetTargetFrameworkMonikerAttribute" en el archivo "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.CSharp.targets" del proyecto "C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj" (el destino "GenerateTargetFrameworkMonikerAttribute" depende de él):
+Compilación terminada del destino "_SetTargetFrameworkMonikerAttribute" en el proyecto "GroupBar_2010.csproj".
+Destino "GenerateTargetFrameworkMonikerAttribute" en el archivo "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" del proyecto "C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj" (el destino "BeforeCompile" depende de él):
+Se omitirá el destino "GenerateTargetFrameworkMonikerAttribute" porque todos los archivos de salida están actualizados respecto a los archivos de entrada.
+Archivos de entrada: C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets
+Archivos de salida: C:\Users\JoséMario\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cs
+Compilación terminada del destino "GenerateTargetFrameworkMonikerAttribute" en el proyecto "GroupBar_2010.csproj".
+Se omitió el destino "GenerateAdditionalSources" debido a una condición falsa (False); ('@(AssemblyAttributes)' != '' and '$(GenerateAdditionalSources)' == 'true') se evaluó como ('' != '' and '' == 'true').
+Destino "BeforeCompile" en el archivo "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" del proyecto "C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj" (el destino "Compile" depende de él):
+Compilación terminada del destino "BeforeCompile" en el proyecto "GroupBar_2010.csproj".
+Se omitió el destino "_TimeStampBeforeCompile" debido a una condición falsa (False); ('$(RunPostBuildEvent)'=='OnOutputUpdated' or ('$(RegisterForComInterop)'=='true' and '$(OutputType)'=='library')) se evaluó como (''=='OnOutputUpdated' or (''=='true' and 'WinExe'=='library')).
+Se omitió el destino "_ComputeNonExistentFileProperty" debido a una condición falsa (False); (('$(BuildingInsideVisualStudio)' == 'true') and ('$(BuildingOutOfProcess)' != 'true') and (('$(BuildingProject)' == 'false') or ('$(UseHostCompilerIfAvailable)' == 'true'))) se evaluó como (('' == 'true') and ('' != 'true') and (('true' == 'false') or ('true' == 'true'))).
+Destino "PreXsdCodeGen" en el archivo "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.ServiceModel.targets" del proyecto "C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj" (el destino "CoreCompile" depende de él):
+Usando la tarea "CallTarget" del ensamblado "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Tarea "CallTarget"
+Destino "CleanXsdCodeGen" en el archivo "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.ServiceModel.targets" del proyecto "C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj" (el destino "PreXsdCodeGen" depende de él):
+Usando la tarea "Delete" del ensamblado "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Tarea "Delete"
+Ejecución de la tarea "Delete" terminada.
+Compilación terminada del destino "CleanXsdCodeGen" en el proyecto "GroupBar_2010.csproj".
+Ejecución de la tarea "CallTarget" terminada.
+Compilación terminada del destino "PreXsdCodeGen" en el proyecto "GroupBar_2010.csproj".
+Se omitió el destino "XsdCodeGen" debido a una condición falsa (False); ( '$(XsdCodeGenPreCondition)' == 'True' ) se evaluó como ( 'False' == 'True' ).
+Destino "CoreCompile" en el archivo "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.CSharp.targets" del proyecto "C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj" (el destino "Compile" depende de él):
+Compilando completamente el destino "CoreCompile".
+El archivo de salida "obj\Release\GroupBarDemo_2005.exe" no existe.
+Usando la tarea "Csc" del ensamblado "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Tarea "Csc"
+  C:\Windows\Microsoft.NET\Framework\v4.0.30319\Csc.exe /noconfig /nowarn:1701,1702 /nostdlib+ /platform:x86 /errorreport:prompt /warn:4 /define:TRACE /highentropyva- /reference:"C:\Program Files (x86)\Common Files\Microsoft Shared\MSEnv\PublicAssemblies\EnvDTE.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll" /reference:"C:\Program Files (x86)\Syncfusion\Essential Studio\13.1.0.21\Assemblies\4.0\Syncfusion.Core.dll" /reference:"C:\Program Files (x86)\Syncfusion\Essential Studio\13.1.0.21\Assemblies\4.0\Syncfusion.Grid.Base.dll" /reference:"C:\Program Files (x86)\Syncfusion\Essential Studio\13.1.0.21\Assemblies\4.0\Syncfusion.Grid.Windows.dll" /reference:"C:\Program Files (x86)\Syncfusion\Essential Studio\13.1.0.21\Assemblies\4.0\Syncfusion.Shared.Base.dll" /reference:"C:\Program Files (x86)\Syncfusion\Essential Studio\13.1.0.21\Assemblies\4.0\Syncfusion.Shared.Windows.dll" /reference:"C:\Program Files (x86)\Syncfusion\Essential Studio\13.1.0.21\Assemblies\4.0\Syncfusion.Tools.Base.dll" /reference:"C:\Program Files (x86)\Syncfusion\Essential Studio\13.1.0.21\Assemblies\4.0\Syncfusion.Tools.Windows.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Deployment.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Design.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.Design.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Runtime.Serialization.Formatters.Soap.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /debug:pdbonly /optimize+ /out:obj\Release\GroupBarDemo_2005.exe /resource:obj\Release\GroupBarDemo_2005.Form1.resources /resource:obj\Release\GroupBarDemo_2005.Properties.Resources.resources /target:winexe /utf8output Form1.cs Form1.Designer.cs Program.cs Properties\AssemblyInfo.cs Properties\Resources.Designer.cs "C:\Users\JoséMario\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cs"
+  Compilador de Microsoft (R) Visual C#, versión 4.0.30319.34209
+  
+  para Microsoft (R) .NET Framework 4.5
+  (C) Microsoft Corporation. Reservados todos los derechos.
+  
+Ejecución de la tarea "Csc" terminada.
+Se omitió la tarea "CallTarget" debido a una condición falsa (False); ('$(TargetsTriggeredByCompilation)' != '') se evaluó como ('' != '').
+Compilación terminada del destino "CoreCompile" en el proyecto "GroupBar_2010.csproj".
+Se omitió el destino "_TimeStampAfterCompile" debido a una condición falsa (False); ('$(RunPostBuildEvent)'=='OnOutputUpdated' or ('$(RegisterForComInterop)'=='true' and '$(OutputType)'=='library')) se evaluó como (''=='OnOutputUpdated' or (''=='true' and 'WinExe'=='library')).
+Destino "AfterCompile" en el archivo "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" del proyecto "C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj" (el destino "Compile" depende de él):
+Compilación terminada del destino "AfterCompile" en el proyecto "GroupBar_2010.csproj".
+Se omitió el destino "PrepareResourcesForSatelliteAssemblies" debido a una condición falsa (False); ('$(UICulture)' != '') se evaluó como ('' != '').
+Se omitió el destino "MergeLocalizationDirectives" debido a una condición falsa (False); ('@(GeneratedLocalizationFiles)' !='') se evaluó como ('' !='').
+Destino "AfterCompileWinFX" en el archivo "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFX.targets" del proyecto "C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj" (el destino "_AfterCompileWinFXInternal" depende de él):
+Compilación terminada del destino "AfterCompileWinFX" en el proyecto "GroupBar_2010.csproj".
+Destino "_AfterCompileWinFXInternal" en el archivo "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFX.targets" del proyecto "C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj" (el destino "Compile" depende de él):
+Compilación terminada del destino "_AfterCompileWinFXInternal" en el proyecto "GroupBar_2010.csproj".
+Destino "Compile" en el archivo "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" del proyecto "C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj" (el destino "CoreBuild" depende de él):
+Compilación terminada del destino "Compile" en el proyecto "GroupBar_2010.csproj".
+Se omitió el destino "ExportWindowsMDFile" debido a una condición falsa (False); ('$(ExportWinMDFile)' == 'true') se evaluó como ('' == 'true').
+Se omitió el destino "UnmanagedUnregistration" debido a una condición falsa (False); ((('$(_AssemblyTimestampBeforeCompile)' != '$(_AssemblyTimestampAfterCompile)' or '$(RegisterForComInterop)' != 'true' or '$(OutputType)' != 'library') or
+                    ('$(_AssemblyTimestampBeforeCompile)' == '')) and
+                   Exists('@(_UnmanagedRegistrationCache)')) se evaluó como ((('' != '' or '' != 'true' or 'WinExe' != 'library') or
+                    ('' == '')) and
+                   Exists('obj\GroupBar_2010.csproj.UnmanagedRegistration.cache')).
+Se omitió el destino "GenerateSerializationAssemblies" debido a una condición falsa (False); ('$(_SGenGenerateSerializationAssembliesConfig)' == 'On' or ('@(WebReferenceUrl)'!='' and '$(_SGenGenerateSerializationAssembliesConfig)' == 'Auto')) se evaluó como ('Auto' == 'On' or (''!='' and 'Auto' == 'Auto')).
+Destino "_GenerateSatelliteAssemblyInputs" en el archivo "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" del proyecto "C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj" (el destino "CreateSatelliteAssemblies" depende de él):
+Se omitió la tarea "Warning" debido a una condición falsa (False); ('@(ManifestResourceWithCulture)'!='' and '%(ManifestResourceWithCulture.EmittedForCompatibilityOnly)'=='') se evaluó como (''!='' and ''=='').
+Se omitió la tarea "Warning" debido a una condición falsa (False); ('@(ManifestNonResxWithCultureOnDisk)'!='' and '%(ManifestNonResxWithCultureOnDisk.EmittedForCompatibilityOnly)'=='') se evaluó como (''!='' and ''=='').
+Compilación terminada del destino "_GenerateSatelliteAssemblyInputs" en el proyecto "GroupBar_2010.csproj".
+Se omitió el destino "CreateManifestResourceNames". Compilado previamente de forma correcta.
+Destino "ComputeIntermediateSatelliteAssemblies" en el archivo "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" del proyecto "C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj" (el destino "CreateSatelliteAssemblies" depende de él):
+Compilación terminada del destino "ComputeIntermediateSatelliteAssemblies" en el proyecto "GroupBar_2010.csproj".
+Se omitió el destino "GenerateSatelliteAssemblies" debido a una condición falsa (False); ('@(_SatelliteAssemblyResourceInputs)' != '') se evaluó como ('' != '').
+Destino "CreateSatelliteAssemblies" en el archivo "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" del proyecto "C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj" (el destino "CoreBuild" depende de él):
+Compilación terminada del destino "CreateSatelliteAssemblies" en el proyecto "GroupBar_2010.csproj".
+Se omitió el destino "GenerateManifests" debido a una condición falsa (False); ('$(GenerateClickOnceManifests)'=='true' or '@(NativeReference)'!='' or '@(ResolvedIsolatedComModules)'!='' or '$(GenerateAppxManifest)' == 'true') se evaluó como (''=='true' or ''!='' or ''!='' or '' == 'true').
+Destino "GetTargetPath" en el archivo "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" del proyecto "C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj" (el destino "CoreBuild" depende de él):
+Compilación terminada del destino "GetTargetPath" en el proyecto "GroupBar_2010.csproj".
+Se omitió el destino "ComputeIntermediateSatelliteAssemblies". Compilado previamente de forma correcta.
+Se omitió el destino "_CopyFilesMarkedCopyLocal" debido a una condición falsa (False); ('@(ReferenceCopyLocalPaths)' != '') se evaluó como ('' != '').
+Se omitió el destino "AssignTargetPaths". Compilado previamente de forma correcta.
+Se omitió el destino "_SplitProjectReferencesByFileExistence". Compilado previamente de forma correcta.
+Destino "GetCopyToOutputDirectoryXamlAppDefs" en el archivo "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets" del proyecto "C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj" (el destino "GetCopyToOutputDirectoryItems" depende de él):
+Tarea "AssignTargetPath"
+Ejecución de la tarea "AssignTargetPath" terminada.
+Compilación terminada del destino "GetCopyToOutputDirectoryXamlAppDefs" en el proyecto "GroupBar_2010.csproj".
+Destino "GetCopyToOutputDirectoryItems" en el archivo "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" del proyecto "C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj" (el destino "_CopySourceItemsToOutputDirectory" depende de él):
+Se omitió la tarea "MSBuild" debido a una condición falsa (False); ('@(_MSBuildProjectReferenceExistent)' != '' and '$(_GetChildProjectCopyToOutputDirectoryItems)' == 'true' and '%(_MSBuildProjectReferenceExistent.Private)' != 'false' and '$(UseCommonOutputDirectory)' != 'true') se evaluó como ('' != '' and 'true' == 'true' and '' != 'false' and 'false' != 'true').
+Tarea "AssignTargetPath"
+Ejecución de la tarea "AssignTargetPath" terminada.
+Compilación terminada del destino "GetCopyToOutputDirectoryItems" en el proyecto "GroupBar_2010.csproj".
+Se omitió el destino "_CopyOutOfDateSourceItemsToOutputDirectory" debido a una condición falsa (False); ( '@(_SourceItemsToCopyToOutputDirectory)' != '' ) se evaluó como ( '' != '' ).
+Se omitió el destino "_CopyOutOfDateSourceItemsToOutputDirectoryAlways" debido a una condición falsa (False); ( '@(_SourceItemsToCopyToOutputDirectoryAlways)' != '' ) se evaluó como ( '' != '' ).
+Destino "_CopySourceItemsToOutputDirectory" en el archivo "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" del proyecto "C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj" (el destino "CopyFilesToOutputDirectory" depende de él):
+Compilación terminada del destino "_CopySourceItemsToOutputDirectory" en el proyecto "GroupBar_2010.csproj".
+Se omitió el destino "_CopyAppConfigFile" debido a una condición falsa (False); ( '@(AppConfigWithTargetPath)' != '' ) se evaluó como ( '' != '' ).
+Se omitió el destino "_CopyManifestFiles" debido a una condición falsa (False); ( '$(_DeploymentCopyApplicationManifest)'=='true' or '$(GenerateClickOnceManifests)'=='true' ) se evaluó como ( ''=='true' or ''=='true' ).
+Destino "_CheckForCompileOutputs" en el archivo "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" del proyecto "C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj" (el destino "CopyFilesToOutputDirectory" depende de él):
+Compilación terminada del destino "_CheckForCompileOutputs" en el proyecto "GroupBar_2010.csproj".
+Se omitió el destino "_SGenCheckForOutputs" debido a una condición falsa (False); ('$(_SGenGenerateSerializationAssembliesConfig)' == 'On' or ('@(WebReferenceUrl)'!='' and '$(_SGenGenerateSerializationAssembliesConfig)' == 'Auto')) se evaluó como ('Auto' == 'On' or (''!='' and 'Auto' == 'Auto')).
+Destino "CopyFilesToOutputDirectory" en el archivo "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" del proyecto "C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj" (el destino "PrepareForRun" depende de él):
+Usando la tarea "Copy" del ensamblado "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Tarea "Copy"
+  Copiando el archivo de "obj\Release\GroupBarDemo_2005.exe" en "bin\Release\GroupBarDemo_2005.exe".
+Ejecución de la tarea "Copy" terminada.
+Tarea "Message"
+  GroupBar_2010 -> C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\bin\Release\GroupBarDemo_2005.exe
+Ejecución de la tarea "Message" terminada.
+Se omitió la tarea "Copy" debido a una condición falsa (False); ('@(AddModules)' != '') se evaluó como ('' != '').
+Se omitió la tarea "Copy" debido a una condición falsa (False); ('$(_SGenDllCreated)'=='true') se evaluó como ('false'=='true').
+Tarea "Copy"
+  Copiando el archivo de "obj\Release\GroupBarDemo_2005.pdb" en "bin\Release\GroupBarDemo_2005.pdb".
+Ejecución de la tarea "Copy" terminada.
+Se omitió la tarea "Copy" debido a una condición falsa (False); ('$(_DocumentationFileProduced)'=='true') se evaluó como ('false'=='true').
+Se omitió la tarea "Copy" debido a una condición falsa (False); ('@(IntermediateSatelliteAssembliesWithTargetPath)' != '') se evaluó como ('' != '').
+Se omitió la tarea "Copy" debido a una condición falsa (False); ('@(ReferenceComWrappersToCopyLocal)' != '' or '@(ResolvedIsolatedComModules)' != '' or '@(_DeploymentLooseManifestFile)' != '' or '@(NativeReferenceFile)' != '' ) se evaluó como ('' != '' or '' != '' or '' != '' or '' != '' ).
+Se omitió la tarea "Copy" debido a una condición falsa (False); ('$(SkipCopyWinMDArtifact)' != 'true' and '@(WinMDExpArtifacts)' != '') se evaluó como ('' != 'true' and '' != '').
+Se omitió la tarea "Message" debido a una condición falsa (False); ('$(SkipCopyWinMDArtifact)' != 'true' and '$(_WindowsMetadataOutputPath)' != '') se evaluó como ('' != 'true' and '' != '').
+Compilación terminada del destino "CopyFilesToOutputDirectory" en el proyecto "GroupBar_2010.csproj".
+Se omitió el destino "RunCodeAnalysis" debido a una condición falsa (False); ('$(RunCodeAnalysisOnThisProject)'=='true') se evaluó como (''=='true').
+Destino "PrepareForRun" en el archivo "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" del proyecto "C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj" (el destino "CoreBuild" depende de él):
+Compilación terminada del destino "PrepareForRun" en el proyecto "GroupBar_2010.csproj".
+Se omitió el destino "UnmanagedRegistration" debido a una condición falsa (False); ('$(RegisterForComInterop)'=='true' and '$(OutputType)'=='library') se evaluó como (''=='true' and 'WinExe'=='library').
+Se omitió el destino "_CheckForCompileOutputs". Compilado previamente de forma correcta.
+Se omitió el destino "_SGenCheckForOutputs" debido a una condición falsa (False); ('$(_SGenGenerateSerializationAssembliesConfig)' == 'On' or ('@(WebReferenceUrl)'!='' and '$(_SGenGenerateSerializationAssembliesConfig)' == 'Auto')) se evaluó como ('Auto' == 'On' or (''!='' and 'Auto' == 'Auto')).
+Destino "_CleanGetCurrentAndPriorFileWrites" en el archivo "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" del proyecto "C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj" (el destino "IncrementalClean" depende de él):
+Usando la tarea "ReadLinesFromFile" del ensamblado "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Tarea "ReadLinesFromFile"
+Ejecución de la tarea "ReadLinesFromFile" terminada.
+Usando la tarea "ConvertToAbsolutePath" del ensamblado "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Tarea "ConvertToAbsolutePath"
+Ejecución de la tarea "ConvertToAbsolutePath" terminada.
+Usando la tarea "FindUnderPath" del ensamblado "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Tarea "FindUnderPath"
+  La ruta de comparación es "C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs".
+Ejecución de la tarea "FindUnderPath" terminada.
+Tarea "FindUnderPath"
+  La ruta de comparación es "bin\Release\".
+Ejecución de la tarea "FindUnderPath" terminada.
+Tarea "FindUnderPath"
+  La ruta de comparación es "obj\Release\".
+Ejecución de la tarea "FindUnderPath" terminada.
+Usando la tarea "RemoveDuplicates" del ensamblado "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Tarea "RemoveDuplicates"
+Ejecución de la tarea "RemoveDuplicates" terminada.
+Compilación terminada del destino "_CleanGetCurrentAndPriorFileWrites" en el proyecto "GroupBar_2010.csproj".
+Destino "IncrementalClean" en el archivo "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" del proyecto "C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj" (el destino "CoreBuild" depende de él):
+Tarea "FindUnderPath"
+  La ruta de comparación es "bin\Release\".
+Ejecución de la tarea "FindUnderPath" terminada.
+Tarea "FindUnderPath"
+  La ruta de comparación es "obj\Release\".
+Ejecución de la tarea "FindUnderPath" terminada.
+Tarea "Delete"
+Ejecución de la tarea "Delete" terminada.
+Tarea "RemoveDuplicates"
+Ejecución de la tarea "RemoveDuplicates" terminada.
+Usando la tarea "WriteLinesToFile" del ensamblado "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Tarea "WriteLinesToFile"
+Ejecución de la tarea "WriteLinesToFile" terminada.
+Compilación terminada del destino "IncrementalClean" en el proyecto "GroupBar_2010.csproj".
+Se omitió el destino "PostBuildEvent" debido a una condición falsa (False); ('$(PostBuildEvent)' != '' and ('$(RunPostBuildEvent)' != 'OnOutputUpdated' or '$(_AssemblyTimestampBeforeCompile)' != '$(_AssemblyTimestampAfterCompile)')) se evaluó como ('' != '' and ('' != 'OnOutputUpdated' or '' != '')).
+Destino "CoreBuild" en el archivo "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" del proyecto "C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj" (el destino "Build" depende de él):
+Compilación terminada del destino "CoreBuild" en el proyecto "GroupBar_2010.csproj".
+Destino "AfterBuild" en el archivo "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" del proyecto "C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj" (el destino "Build" depende de él):
+Compilación terminada del destino "AfterBuild" en el proyecto "GroupBar_2010.csproj".
+Destino "Build" en el archivo "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" del proyecto "C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj" (punto de entrada):
+Compilación terminada del destino "Build" en el proyecto "GroupBar_2010.csproj".
+Compilación del proyecto terminada "C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj" (destinos predeterminados).
+
+
+Compilación correcta.
+    0 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:02.66

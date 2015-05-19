@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroupBar_2013", "GroupBar_2013.csproj", "{746FBC0D-9854-4EA5-A1CF-0635C0DE0537}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithms", "..\Algorithms\Algorithms.csproj", "{6F873C18-B95E-47BA-BCF3-24353DAC9BEE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Console Test", "Console Test", "{4D39FB01-03C5-4AD3-9A05-BDB58BA94627}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestLibraries", "..\TestLibraries\TestLibraries.csproj", "{DEBFDC92-9558-4CB8-8E34-EF79D814059C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MathDerivative", "MathDerivative", "{12EC42E9-BE32-4032-9661-95BB6FA6A051}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathExpressions.NET", "..\..\..\..\..\..\..\..\..\..\..\Desktop\MathExpressions.NET-master\MathExpressions.NET\MathExpressions.NET.csproj", "{AE661528-AFC9-4CCA-9ABD-C173E9779085}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{746FBC0D-9854-4EA5-A1CF-0635C0DE0537}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{746FBC0D-9854-4EA5-A1CF-0635C0DE0537}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{746FBC0D-9854-4EA5-A1CF-0635C0DE0537}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{746FBC0D-9854-4EA5-A1CF-0635C0DE0537}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F873C18-B95E-47BA-BCF3-24353DAC9BEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F873C18-B95E-47BA-BCF3-24353DAC9BEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F873C18-B95E-47BA-BCF3-24353DAC9BEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F873C18-B95E-47BA-BCF3-24353DAC9BEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEBFDC92-9558-4CB8-8E34-EF79D814059C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEBFDC92-9558-4CB8-8E34-EF79D814059C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEBFDC92-9558-4CB8-8E34-EF79D814059C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEBFDC92-9558-4CB8-8E34-EF79D814059C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE661528-AFC9-4CCA-9ABD-C173E9779085}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE661528-AFC9-4CCA-9ABD-C173E9779085}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE661528-AFC9-4CCA-9ABD-C173E9779085}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE661528-AFC9-4CCA-9ABD-C173E9779085}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DEBFDC92-9558-4CB8-8E34-EF79D814059C} = {4D39FB01-03C5-4AD3-9A05-BDB58BA94627}
+		{AE661528-AFC9-4CCA-9ABD-C173E9779085} = {12EC42E9-BE32-4032-9661-95BB6FA6A051}
+	EndGlobalSection
+EndGlobal

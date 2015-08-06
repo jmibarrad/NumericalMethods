@@ -18,7 +18,57 @@ namespace Algorithms.Services
 
         public static IEnumerable<double> ToDoubleList(this string input)
         {
-            return input.Split('&').Select(double.Parse);
-        } 
+            return input.Split(',').Select(double.Parse);
+        }
+
+        public static double[,] ToDoubleBidimensionalArray(this string input)
+        {
+            var doubleRows = input.Split(';');
+            var doubleColumns = input.Split(';')[0].Split(',').Count();
+
+            for (int i = 0; i<doubleRows.Count(); i++)
+            {
+                doubleRows[i] = doubleRows[i].Replace('{',' ');
+                doubleRows[i] = doubleRows[i].Replace('}', ' ');
+            }
+
+            var result = new double[doubleRows.Count(), doubleColumns];
+
+            for (int i = 0; i < doubleRows.Count(); i++)
+            {
+                var temp = doubleRows[i].Split(',').ToArray();
+                for (int j = 0; j < doubleColumns; j++)
+                {
+                    result[i, j] = double.Parse(temp[j]);
+                }
+            }
+
+            return result;
+        }
+
+        public static double[][] ToDoubleArrayOfArrays(this string input)
+        {
+            var doubleRows = input.Split(';');
+            int doubleColumns = input.Split(';')[0].Split(',').Count();
+
+            for (int i = 0; i < doubleRows.Count(); i++)
+            {
+                doubleRows[i] = doubleRows[i].Replace('{', ' ');
+                doubleRows[i] = doubleRows[i].Replace('}', ' ');
+            }
+
+            var result = new double[doubleRows.Count()][];
+            
+            for (var i = 0; i < doubleRows.Count(); i++)
+            {
+                var temp = doubleRows[i].Split(',').Select(double.Parse).ToArray();
+                for (var j = 0; j < doubleColumns; j++)
+                {
+                    result[i] = temp;
+                }
+            }
+
+            return result;
+        }
     }
 }

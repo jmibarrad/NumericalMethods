@@ -9,7 +9,7 @@ namespace Algorithms
         {
 
             if ((Fn(function, a) < 0 && Fn(function, b) < 0) || (Fn(function, b) > 0 && Fn(function, a) > 0) || a > b)
-                return "El método fracaso.";
+                return "El método fracasó.";
             var FA = Fn(function, a);
             var i = 1;
             while (i <= iterator)

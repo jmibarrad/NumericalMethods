@@ -50,11 +50,10 @@ namespace GroupBarDemo_2005
         {  
             rtbProcess.Clear();
             txtAns.Clear();
-            if (EmptyNorNullInputs())
                 SelectAlgorithm(_currentItem);
-            else
+           /* else
                 MessageBox.Show("¡Entradas vacías o nulas!", "Input Error Handler", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-
+            */
 
 
         }
@@ -119,7 +118,73 @@ namespace GroupBarDemo_2005
                     var interMedianteTrazador = new InterpolacionMedianteTrazadores();
                     interMedianteTrazador.Calculate(txtEquation.Text.ToDoubleList().ToArray(),txtA.Text.ToDoubleList().ToArray(),txtIteration.Text.ToDouble(),txtC.Text.ToDouble());
                     FillRichTextProcessBox(interMedianteTrazador.StepsLog);
- 
+                    break;
+                case 10:
+                    var diffNumerica = new DiffNumerica();
+                    txtAns.Text = diffNumerica.Calculate(txtEquation.Text.ToDoubleList().ToArray(), txtA.Text.ToDoubleList().ToArray(), 
+                                                         txtB.Text.ToDouble(), txtIteration.Text.ToInt32());
+                    break;
+                case 11:
+                    var trapecio = new ReglaTrapecio();
+                    txtAns.Text = trapecio.Calculate(txtEquation.Text, txtA.Text.ToDouble(), txtB.Text.ToDouble(), txtIteration.Text.ToInt32());
+                    FillRichTextProcessBox(trapecio.StepsLog);
+                    break;
+                case 12:
+                    var simpson = new Simpson();
+                    txtAns.Text = simpson.Calculate(txtEquation.Text, txtA.Text.ToDouble(), txtB.Text.ToDouble(), txtIteration.Text.ToInt32());
+                    break;
+                case 13:
+                    var cuadraturaGauss = new CuadraturaGauss();
+                    txtAns.Text = cuadraturaGauss.Calculate(txtEquation.Text, txtA.Text.ToDouble(), txtB.Text.ToDouble(), 
+                                                            txtIteration.Text.ToInt32());
+                    break;
+                case 14:
+                    var metodoEuler = new MetodoEuler();
+                    txtAns.Text = metodoEuler.Calculate(txtEquation.Text, txtA.Text.ToDouble(), txtB.Text.ToDouble(), txtC.Text.ToDouble(), 
+                                                        txtIteration.Text.ToInt32());
+                    FillRichTextProcessBox(metodoEuler.StepsLog);
+                    break;
+                case 15:
+                    var rungeKutta = new RungeKutta();
+                    txtAns.Text = rungeKutta.Calculate(txtEquation.Text, txtA.Text.ToDouble(), txtB.Text.ToDouble(), txtC.Text.ToDouble(),
+                                                       txtIteration.Text.ToInt32());
+                    FillRichTextProcessBox(rungeKutta.StepsLog);
+                    break;
+                case 16:
+                   var kutta = new RungeKutta();
+                    txtAns.Text = kutta.Calculate(txtEquation.Text, txtA.Text.ToDouble(), txtB.Text.ToDouble(), txtC.Text.ToDouble(),
+                                                       txtIteration.Text.ToInt32());
+                    FillRichTextProcessBox(kutta.StepsLog);
+                    break;
+                case 17:
+                    var gauss = new Gauss();
+                    gauss.Calculate(txtEquation.Text.ToDoubleArrayOfArrays(), txtA.Text.ToDoubleList().ToArray());
+                    break;
+                case 18:
+                    var gaussJordan = new GaussJordan();
+                    gaussJordan.Calculate(txtEquation.Text.ToDoubleBidimensionalArray(), txtA.Text.ToInt32());
+                    break;
+                case 19:
+                    var descLU = new DescomposicionLU();
+                    descLU.Calculate(txtEquation.Text.ToDoubleBidimensionalArray());
+                    FillRichTextProcessBox(descLU.StepsLog);
+                    break;
+                case 20:
+                    var inversa = new Inversa();
+                    inversa.Calculate(txtEquation.Text.ToDoubleBidimensionalArray(), txtA.Text.ToDoubleList().ToArray());
+                    FillRichTextProcessBox(inversa.StepsLog);
+                    break;
+                case 21:
+                    var regresionLineal = new RegresionLineal();
+                    txtAns.Text = regresionLineal.Calculate(txtEquation.Text.ToDoubleList().ToArray(), txtA.Text.ToDoubleList().ToArray(),
+                                             txtIteration.Text.ToDouble()).ToString();
+                    break;
+                case 22:
+                    var lineasFinitas = new LineasFinitas();
+                    var list = txtB.Text.ToDoubleList().ToArray();
+                    lineasFinitas.Calculate(txtEquation.Text, txtA.Text, txtIteration.Text, 
+                                             list[0], list[1], list[2], list[3], txtTolerance.Text.ToInt32());
+                    FillRichTextProcessBox(lineasFinitas.StepsLog);
                     break;
             }
         }
@@ -186,6 +251,8 @@ namespace GroupBarDemo_2005
                     lblEquation.Text = "XINT:"; 
                     lblA.Text = "x[]:";
                     lblIteration.Text = "f(x)[]:";
+                    lblIteration.Visible = true;
+                    txtIteration.Visible = true;
                     txtB.Text = "0";
                     txtTolerance.Text = "0";
                     txtTolerance.Visible = false;
@@ -200,6 +267,8 @@ namespace GroupBarDemo_2005
                     lblEquation.Text = "XINT:"; 
                     lblA.Text = "x[]:";
                     lblIteration.Text = "f(x)[]:";
+                    lblIteration.Visible = true;
+                    txtIteration.Visible = true;
                     txtB.Text = "0";
                     txtTolerance.Text = "0";
                     txtTolerance.Visible = false;
@@ -231,7 +300,121 @@ namespace GroupBarDemo_2005
                     lblB.Visible = false; txtB.Visible = false; txtB.Text = "0";
                     lblC.Text = "fpN:"; lblC.Visible = true; txtC.Visible = true;
                     lblTol.Visible = false; txtTolerance.Visible = false; txtTolerance.Text = "0";
-                    lblIteration.Text = "fp0::"; txtIteration.Visible = true; lblIteration.Visible = true;
+                    lblIteration.Text = "fp0::"; txtIteration.Visible = true; lblIteration.Visible = true;  
+                    break;
+
+                case 10:
+                    lblEquation.Text = "x[]:";
+                    lblA.Text = "f(x)[]:";
+                    txtC.Text = "0";
+                    txtTolerance.Text = "0";
+                    txtIteration.Visible = true;
+                    txtTolerance.Visible = false;
+                    txtB.Visible = true;
+                    txtC.Visible = false;
+                    lblB.Visible = true;
+                    lblB.Text = "XD";
+                    lblC.Visible = false;
+                    lblTol.Visible = false;
+                    lblIteration.Visible = true;
+                    lblIteration.Text = "Nº."; 
+                    break;
+                case 11:
+                    lblEquation.Text = "Ecuacion:";
+                    lblA.Text = "a:"; 
+                    lblB.Text = "b"; lblB.Visible = true; txtB.Visible = true;
+                    lblC.Text = "x3"; lblC.Visible = false; txtC.Visible = false; txtC.Text = "0";
+                    lblTol.Text = "Tol:"; lblTol.Visible = false; txtTolerance.Visible = false; txtTolerance.Text = "0";
+                    lblIteration.Text = "Nº:"; txtIteration.Visible = true; lblIteration.Visible = true;
+                    break;
+                case 12:
+                    lblEquation.Text = "Ecuacion:";
+                    lblA.Text = "a:"; 
+                    lblB.Text = "b"; lblB.Visible = true; txtB.Visible = true;
+                    lblC.Text = "x3"; lblC.Visible = false; txtC.Visible = false; txtC.Text = "0";
+                    lblTol.Text = "Tol:"; lblTol.Visible = false; txtTolerance.Visible = false; txtTolerance.Text = "0";
+                    lblIteration.Text = "Nº:"; txtIteration.Visible = true; lblIteration.Visible = true;
+                    break;
+                case 13:
+                     lblEquation.Text = "Ecuacion:";
+                    lblA.Text = "a:"; 
+                    lblB.Text = "b"; lblB.Visible = true; txtB.Visible = true;
+                    lblC.Text = "x3"; lblC.Visible = false; txtC.Visible = false; txtC.Text = "0";
+                    lblTol.Text = "Tol:"; lblTol.Visible = false; txtTolerance.Visible = false; txtTolerance.Text = "0";
+                    lblIteration.Text = "Nº:"; txtIteration.Visible = true; lblIteration.Visible = true;
+                    break;
+                case 14:
+                    lblEquation.Text = "Ecuacion:";
+                    lblA.Text = "X0:"; 
+                    lblB.Text = "XF:"; lblB.Visible = true; txtB.Visible = true;
+                    lblC.Text = "Y0:"; lblC.Visible = true; txtC.Visible = true;
+                    lblTol.Text = "Tol:"; lblTol.Visible = false; txtTolerance.Visible = false; txtTolerance.Text = "0";
+                    lblIteration.Text = "Nº:"; txtIteration.Visible = true; lblIteration.Visible = true;
+                    break;
+                case 15:
+                    lblEquation.Text = "Ecuacion:";
+                    lblA.Text = "X0:"; 
+                    lblB.Text = "XF:"; lblB.Visible = true; txtB.Visible = true;
+                    lblC.Text = "Y0:"; lblC.Visible = true; txtC.Visible = true;
+                    lblTol.Text = "Tol:"; lblTol.Visible = false; txtTolerance.Visible = false; txtTolerance.Text = "0";
+                    lblIteration.Text = "Nº:"; txtIteration.Visible = true; lblIteration.Visible = true;
+                    break;
+                case 16:
+                    lblEquation.Text = "Ecuacion:";
+                    lblA.Text = "X0:"; 
+                    lblB.Text = "XF:"; lblB.Visible = true; txtB.Visible = true;
+                    lblC.Text = "Y0:"; lblC.Visible = true; txtC.Visible = true;
+                    lblTol.Text = "Tol:"; lblTol.Visible = false; txtTolerance.Visible = false; txtTolerance.Text = "0";
+                    lblIteration.Text = "Nº:"; txtIteration.Visible = true; lblIteration.Visible = true;
+                    break;
+                case 17:
+                    lblEquation.Text = "Matrix[][]:";
+                    lblA.Text = "vector[]:"; 
+                    lblB.Text = "XF:"; lblB.Visible = false; txtB.Visible = false;
+                    lblC.Text = "Y0:"; lblC.Visible = false; txtC.Visible = false; txtC.Text = "0";
+                    lblTol.Text = "Tol:"; lblTol.Visible = false; txtTolerance.Visible = false; txtTolerance.Text = "0";
+                    lblIteration.Text = "Nº:"; txtIteration.Visible = false; lblIteration.Visible = false; txtIteration.Text = "0";
+                    break;
+                case 18:
+                    lblEquation.Text = "Matrix[,]:";
+                    lblA.Text = "dimension:"; 
+                    lblB.Text = "XF:"; lblB.Visible = false; txtB.Visible = false;
+                    lblC.Text = "Y0:"; lblC.Visible = false; txtC.Visible = false; txtC.Text = "0";
+                    lblTol.Text = "Tol:"; lblTol.Visible = false; txtTolerance.Visible = false; txtTolerance.Text = "0";
+                    lblIteration.Text = "Nº:"; txtIteration.Visible = false; lblIteration.Visible = false; txtIteration.Text = "0";
+                    break;
+                case 19:
+                    lblEquation.Text = "Matrix[,]:";
+                    lblA.Text = ""; 
+                    lblB.Text = "XF:"; lblB.Visible = false; txtB.Visible = false;
+                    lblC.Text = "Y0:"; lblC.Visible = false; txtC.Visible = false; txtC.Text = "0";
+                    lblTol.Text = "Tol:"; lblTol.Visible = false; txtTolerance.Visible = false; txtTolerance.Text = "0";
+                    lblIteration.Text = "Nº:"; txtIteration.Visible = false; lblIteration.Visible = false; txtIteration.Text = "0";
+                    break;
+                case 20:
+                    lblEquation.Text = "Matrix[,]:";
+                    lblA.Text = "vector[]:"; 
+                    lblB.Text = "XF:"; lblB.Visible = false; txtB.Visible = false;
+                    lblC.Text = "Y0:"; lblC.Visible = false; txtC.Visible = false; txtC.Text = "0";
+                    lblTol.Text = "Tol:"; lblTol.Visible = false; txtTolerance.Visible = false; txtTolerance.Text = "0";
+                    lblIteration.Text = "Nº:"; txtIteration.Visible = false; lblIteration.Visible = false; txtIteration.Text = "0";
+                    break;
+                case 21:
+                    lblEquation.Text = "x[]:";
+                    lblA.Text = "f(x)[]:"; 
+                    lblB.Text = "XF:"; lblB.Visible = false; txtB.Visible = false;
+                    lblC.Text = "Y0:"; lblC.Visible = false; txtC.Visible = false; txtC.Text = "0";
+                    lblTol.Text = "Tol:"; lblTol.Visible = false; txtTolerance.Visible = false; txtTolerance.Text = "0";
+                    lblIteration.Text = "Nº:"; txtIteration.Visible = true; lblIteration.Visible = true;
+                    break;
+                case 22:
+                    //string px, string qx, string rx, double a, double b, double alpha, double beta, int N
+                    lblEquation.Text = "px[]:";
+                    lblA.Text = "qx[]:";
+                    lblB.Text = "a, b, alpha, beta"; lblB.Visible = true; txtB.Visible = true; txtB.Text = "0,0,0,0";
+                    lblC.Text = "fpN:"; lblC.Visible = false; txtC.Visible = false; txtC.Text = "0";
+                    lblTol.Text = "Nº:";  lblTol.Visible = true; txtTolerance.Visible = true; txtTolerance.Text = "0";
+                    lblIteration.Text = "rx::"; txtIteration.Visible = true; lblIteration.Visible = true;  
 
                     break;
             }

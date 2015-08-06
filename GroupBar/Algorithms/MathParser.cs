@@ -107,7 +107,7 @@
                 {
                     // input[0] is the number
                     // input[1] is the base
-
+                    
                     switch (input.Length)
                     {
                         case 1:

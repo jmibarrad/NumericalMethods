@@ -11,3 +11,6 @@ C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\T
 C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\TestLibraries\bin\Debug\MathExpressions.NET.pdb
 C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\TestLibraries\bin\Debug\Algorithms.dll
 C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\TestLibraries\bin\Debug\Algorithms.pdb
+C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\TestLibraries\bin\Debug\info.lundin.math.dll
+C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\TestLibraries\bin\Debug\MathNet.Numerics.dll
+C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\TestLibraries\bin\Debug\MathNet.Numerics.xml

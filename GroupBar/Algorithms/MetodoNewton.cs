@@ -10,7 +10,7 @@ namespace Algorithms
             int i = 1;
             while (i <= iterador)
             {
-                double p = aprox - (Fn2(function, aprox)/Fn2SimpleDerivative("(2*x)-5", aprox));
+                double p = aprox - (Fn2(function, aprox)/Fn2SimpleDerivative(function, aprox));
                 FillProcess("#" + (i) + "  Po= " + aprox + "  P= " + p);
                 if (Math.Abs(p - aprox) < tol)
                     return "P" + (i) + "= " + p;

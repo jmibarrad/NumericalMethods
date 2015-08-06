@@ -1,4 +1,4 @@
-Compilación iniciada a las 24/04/2015 17:40:59.
+Compilación iniciada a las 19/05/2015 16:07:36.
 Invalidando el destino "GetFrameworkPaths" del proyecto"C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" con el destino "GetFrameworkPaths" del proyecto "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.NETFramework.targets".
 Invalidando el destino "SatelliteDllsProjectOutputGroup" del proyecto"C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" con el destino "SatelliteDllsProjectOutputGroup" del proyecto "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFX.targets".
 Proyecto "C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj" en nodo 1 (destinos predeterminados).
@@ -497,7 +497,7 @@ Usando la tarea "GenerateResource" del ensamblado "Microsoft.Build.Tasks.v4.0, V
 Tarea "GenerateResource"
   "C:\Program Files (x86)\Microsoft SDKs\Windows\v8.0A\bin\NETFX 4.0 Tools\resgen.exe" /useSourcePath /r:"C:\Program Files (x86)\Common Files\Microsoft Shared\MSEnv\PublicAssemblies\EnvDTE.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll" /r:"C:\Program Files (x86)\Syncfusion\Essential Studio\13.1.0.21\Assemblies\4.0\Syncfusion.Core.dll" /r:"C:\Program Files (x86)\Syncfusion\Essential Studio\13.1.0.21\Assemblies\4.0\Syncfusion.Grid.Base.dll" /r:"C:\Program Files (x86)\Syncfusion\Essential Studio\13.1.0.21\Assemblies\4.0\Syncfusion.Grid.Windows.dll" /r:"C:\Program Files (x86)\Syncfusion\Essential Studio\13.1.0.21\Assemblies\4.0\Syncfusion.Shared.Base.dll" /r:"C:\Program Files (x86)\Syncfusion\Essential Studio\13.1.0.21\Assemblies\4.0\Syncfusion.Shared.Windows.dll" /r:"C:\Program Files (x86)\Syncfusion\Essential Studio\13.1.0.21\Assemblies\4.0\Syncfusion.Tools.Base.dll" /r:"C:\Program Files (x86)\Syncfusion\Essential Studio\13.1.0.21\Assemblies\4.0\Syncfusion.Tools.Windows.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Deployment.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Design.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.Design.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Runtime.Serialization.Formatters.Soap.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /compile Form1.resx,obj\Release\GroupBarDemo_2005.Form1.resources Properties\Resources.resx,obj\Release\GroupBarDemo_2005.Properties.Resources.resources
   Procesando archivo de recursos "Form1.resx" en "obj\Release\GroupBarDemo_2005.Form1.resources".
-  Procesando 28 recursos del archivo "Form1.resx".
+  Procesando 25 recursos del archivo "Form1.resx".
   Procesando archivo de recursos "Properties\Resources.resx" en "obj\Release\GroupBarDemo_2005.Properties.Resources.resources".
   Procesando 0 recursos del archivo "Properties\Resources.resx".
 Ejecución de la tarea "GenerateResource" terminada.
@@ -563,88 +563,15 @@ Tarea "Csc"
   para Microsoft (R) .NET Framework 4.5
   (C) Microsoft Corporation. Reservados todos los derechos.
   
-Ejecución de la tarea "Csc" terminada.
-Se omitió la tarea "CallTarget" debido a una condición falsa (False); ('$(TargetsTriggeredByCompilation)' != '') se evaluó como ('' != '').
-Compilación terminada del destino "CoreCompile" en el proyecto "GroupBar_2010.csproj".
-Se omitió el destino "_TimeStampAfterCompile" debido a una condición falsa (False); ('$(RunPostBuildEvent)'=='OnOutputUpdated' or ('$(RegisterForComInterop)'=='true' and '$(OutputType)'=='library')) se evaluó como (''=='OnOutputUpdated' or (''=='true' and 'WinExe'=='library')).
-Destino "AfterCompile" en el archivo "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" del proyecto "C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj" (el destino "Compile" depende de él):
-Compilación terminada del destino "AfterCompile" en el proyecto "GroupBar_2010.csproj".
-Se omitió el destino "PrepareResourcesForSatelliteAssemblies" debido a una condición falsa (False); ('$(UICulture)' != '') se evaluó como ('' != '').
-Se omitió el destino "MergeLocalizationDirectives" debido a una condición falsa (False); ('@(GeneratedLocalizationFiles)' !='') se evaluó como ('' !='').
-Destino "AfterCompileWinFX" en el archivo "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFX.targets" del proyecto "C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj" (el destino "_AfterCompileWinFXInternal" depende de él):
-Compilación terminada del destino "AfterCompileWinFX" en el proyecto "GroupBar_2010.csproj".
-Destino "_AfterCompileWinFXInternal" en el archivo "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFX.targets" del proyecto "C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj" (el destino "Compile" depende de él):
-Compilación terminada del destino "_AfterCompileWinFXInternal" en el proyecto "GroupBar_2010.csproj".
-Destino "Compile" en el archivo "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" del proyecto "C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj" (el destino "CoreBuild" depende de él):
-Compilación terminada del destino "Compile" en el proyecto "GroupBar_2010.csproj".
-Se omitió el destino "ExportWindowsMDFile" debido a una condición falsa (False); ('$(ExportWinMDFile)' == 'true') se evaluó como ('' == 'true').
-Se omitió el destino "UnmanagedUnregistration" debido a una condición falsa (False); ((('$(_AssemblyTimestampBeforeCompile)' != '$(_AssemblyTimestampAfterCompile)' or '$(RegisterForComInterop)' != 'true' or '$(OutputType)' != 'library') or
-                    ('$(_AssemblyTimestampBeforeCompile)' == '')) and
-                   Exists('@(_UnmanagedRegistrationCache)')) se evaluó como ((('' != '' or '' != 'true' or 'WinExe' != 'library') or
-                    ('' == '')) and
-                   Exists('obj\GroupBar_2010.csproj.UnmanagedRegistration.cache')).
-Se omitió el destino "GenerateSerializationAssemblies" debido a una condición falsa (False); ('$(_SGenGenerateSerializationAssembliesConfig)' == 'On' or ('@(WebReferenceUrl)'!='' and '$(_SGenGenerateSerializationAssembliesConfig)' == 'Auto')) se evaluó como ('Auto' == 'On' or (''!='' and 'Auto' == 'Auto')).
-Destino "_GenerateSatelliteAssemblyInputs" en el archivo "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" del proyecto "C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj" (el destino "CreateSatelliteAssemblies" depende de él):
-Se omitió la tarea "Warning" debido a una condición falsa (False); ('@(ManifestResourceWithCulture)'!='' and '%(ManifestResourceWithCulture.EmittedForCompatibilityOnly)'=='') se evaluó como (''!='' and ''=='').
-Se omitió la tarea "Warning" debido a una condición falsa (False); ('@(ManifestNonResxWithCultureOnDisk)'!='' and '%(ManifestNonResxWithCultureOnDisk.EmittedForCompatibilityOnly)'=='') se evaluó como (''!='' and ''=='').
-Compilación terminada del destino "_GenerateSatelliteAssemblyInputs" en el proyecto "GroupBar_2010.csproj".
-Se omitió el destino "CreateManifestResourceNames". Compilado previamente de forma correcta.
-Destino "ComputeIntermediateSatelliteAssemblies" en el archivo "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" del proyecto "C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj" (el destino "CreateSatelliteAssemblies" depende de él):
-Compilación terminada del destino "ComputeIntermediateSatelliteAssemblies" en el proyecto "GroupBar_2010.csproj".
-Se omitió el destino "GenerateSatelliteAssemblies" debido a una condición falsa (False); ('@(_SatelliteAssemblyResourceInputs)' != '') se evaluó como ('' != '').
-Destino "CreateSatelliteAssemblies" en el archivo "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" del proyecto "C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj" (el destino "CoreBuild" depende de él):
-Compilación terminada del destino "CreateSatelliteAssemblies" en el proyecto "GroupBar_2010.csproj".
-Se omitió el destino "GenerateManifests" debido a una condición falsa (False); ('$(GenerateClickOnceManifests)'=='true' or '@(NativeReference)'!='' or '@(ResolvedIsolatedComModules)'!='' or '$(GenerateAppxManifest)' == 'true') se evaluó como (''=='true' or ''!='' or ''!='' or '' == 'true').
-Destino "GetTargetPath" en el archivo "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" del proyecto "C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj" (el destino "CoreBuild" depende de él):
-Compilación terminada del destino "GetTargetPath" en el proyecto "GroupBar_2010.csproj".
-Se omitió el destino "ComputeIntermediateSatelliteAssemblies". Compilado previamente de forma correcta.
-Se omitió el destino "_CopyFilesMarkedCopyLocal" debido a una condición falsa (False); ('@(ReferenceCopyLocalPaths)' != '') se evaluó como ('' != '').
-Se omitió el destino "AssignTargetPaths". Compilado previamente de forma correcta.
-Se omitió el destino "_SplitProjectReferencesByFileExistence". Compilado previamente de forma correcta.
-Destino "GetCopyToOutputDirectoryXamlAppDefs" en el archivo "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets" del proyecto "C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj" (el destino "GetCopyToOutputDirectoryItems" depende de él):
-Tarea "AssignTargetPath"
-Ejecución de la tarea "AssignTargetPath" terminada.
-Compilación terminada del destino "GetCopyToOutputDirectoryXamlAppDefs" en el proyecto "GroupBar_2010.csproj".
-Destino "GetCopyToOutputDirectoryItems" en el archivo "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" del proyecto "C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj" (el destino "_CopySourceItemsToOutputDirectory" depende de él):
-Se omitió la tarea "MSBuild" debido a una condición falsa (False); ('@(_MSBuildProjectReferenceExistent)' != '' and '$(_GetChildProjectCopyToOutputDirectoryItems)' == 'true' and '%(_MSBuildProjectReferenceExistent.Private)' != 'false' and '$(UseCommonOutputDirectory)' != 'true') se evaluó como ('' != '' and 'true' == 'true' and '' != 'false' and 'false' != 'true').
-Tarea "AssignTargetPath"
-Ejecución de la tarea "AssignTargetPath" terminada.
-Compilación terminada del destino "GetCopyToOutputDirectoryItems" en el proyecto "GroupBar_2010.csproj".
-Se omitió el destino "_CopyOutOfDateSourceItemsToOutputDirectory" debido a una condición falsa (False); ( '@(_SourceItemsToCopyToOutputDirectory)' != '' ) se evaluó como ( '' != '' ).
-Se omitió el destino "_CopyOutOfDateSourceItemsToOutputDirectoryAlways" debido a una condición falsa (False); ( '@(_SourceItemsToCopyToOutputDirectoryAlways)' != '' ) se evaluó como ( '' != '' ).
-Destino "_CopySourceItemsToOutputDirectory" en el archivo "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" del proyecto "C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj" (el destino "CopyFilesToOutputDirectory" depende de él):
-Compilación terminada del destino "_CopySourceItemsToOutputDirectory" en el proyecto "GroupBar_2010.csproj".
-Se omitió el destino "_CopyAppConfigFile" debido a una condición falsa (False); ( '@(AppConfigWithTargetPath)' != '' ) se evaluó como ( '' != '' ).
-Se omitió el destino "_CopyManifestFiles" debido a una condición falsa (False); ( '$(_DeploymentCopyApplicationManifest)'=='true' or '$(GenerateClickOnceManifests)'=='true' ) se evaluó como ( ''=='true' or ''=='true' ).
-Destino "_CheckForCompileOutputs" en el archivo "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" del proyecto "C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj" (el destino "CopyFilesToOutputDirectory" depende de él):
+Form1.cs(13,7): error CS0246: No se puede encontrar el tipo o el nombre de espacio de nombres 'Algorithms' (¿falta una directiva using o una referencia de ensamblado?) [C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj]
+Form1.cs(14,7): error CS0246: No se puede encontrar el tipo o el nombre de espacio de nombres 'Algorithms' (¿falta una directiva using o una referencia de ensamblado?) [C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj]
+  El comando salió con el código 1.
+Ejecución de la tarea "Csc" terminada -- ERROR.
+Compilación terminada del destino "CoreCompile" en el proyecto "GroupBar_2010.csproj" -- ERROR.
+Destino "_CheckForCompileOutputs" en el archivo "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" del proyecto "C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj" (el destino "_CleanGetCurrentAndPriorFileWrites" depende de él):
 Compilación terminada del destino "_CheckForCompileOutputs" en el proyecto "GroupBar_2010.csproj".
 Se omitió el destino "_SGenCheckForOutputs" debido a una condición falsa (False); ('$(_SGenGenerateSerializationAssembliesConfig)' == 'On' or ('@(WebReferenceUrl)'!='' and '$(_SGenGenerateSerializationAssembliesConfig)' == 'Auto')) se evaluó como ('Auto' == 'On' or (''!='' and 'Auto' == 'Auto')).
-Destino "CopyFilesToOutputDirectory" en el archivo "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" del proyecto "C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj" (el destino "PrepareForRun" depende de él):
-Usando la tarea "Copy" del ensamblado "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
-Tarea "Copy"
-  Copiando el archivo de "obj\Release\GroupBarDemo_2005.exe" en "bin\Release\GroupBarDemo_2005.exe".
-Ejecución de la tarea "Copy" terminada.
-Tarea "Message"
-  GroupBar_2010 -> C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\bin\Release\GroupBarDemo_2005.exe
-Ejecución de la tarea "Message" terminada.
-Se omitió la tarea "Copy" debido a una condición falsa (False); ('@(AddModules)' != '') se evaluó como ('' != '').
-Se omitió la tarea "Copy" debido a una condición falsa (False); ('$(_SGenDllCreated)'=='true') se evaluó como ('false'=='true').
-Tarea "Copy"
-  Copiando el archivo de "obj\Release\GroupBarDemo_2005.pdb" en "bin\Release\GroupBarDemo_2005.pdb".
-Ejecución de la tarea "Copy" terminada.
-Se omitió la tarea "Copy" debido a una condición falsa (False); ('$(_DocumentationFileProduced)'=='true') se evaluó como ('false'=='true').
-Se omitió la tarea "Copy" debido a una condición falsa (False); ('@(IntermediateSatelliteAssembliesWithTargetPath)' != '') se evaluó como ('' != '').
-Se omitió la tarea "Copy" debido a una condición falsa (False); ('@(ReferenceComWrappersToCopyLocal)' != '' or '@(ResolvedIsolatedComModules)' != '' or '@(_DeploymentLooseManifestFile)' != '' or '@(NativeReferenceFile)' != '' ) se evaluó como ('' != '' or '' != '' or '' != '' or '' != '' ).
-Se omitió la tarea "Copy" debido a una condición falsa (False); ('$(SkipCopyWinMDArtifact)' != 'true' and '@(WinMDExpArtifacts)' != '') se evaluó como ('' != 'true' and '' != '').
-Se omitió la tarea "Message" debido a una condición falsa (False); ('$(SkipCopyWinMDArtifact)' != 'true' and '$(_WindowsMetadataOutputPath)' != '') se evaluó como ('' != 'true' and '' != '').
-Compilación terminada del destino "CopyFilesToOutputDirectory" en el proyecto "GroupBar_2010.csproj".
-Se omitió el destino "RunCodeAnalysis" debido a una condición falsa (False); ('$(RunCodeAnalysisOnThisProject)'=='true') se evaluó como (''=='true').
-Destino "PrepareForRun" en el archivo "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" del proyecto "C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj" (el destino "CoreBuild" depende de él):
-Compilación terminada del destino "PrepareForRun" en el proyecto "GroupBar_2010.csproj".
-Se omitió el destino "UnmanagedRegistration" debido a una condición falsa (False); ('$(RegisterForComInterop)'=='true' and '$(OutputType)'=='library') se evaluó como (''=='true' and 'WinExe'=='library').
-Se omitió el destino "_CheckForCompileOutputs". Compilado previamente de forma correcta.
-Se omitió el destino "_SGenCheckForOutputs" debido a una condición falsa (False); ('$(_SGenGenerateSerializationAssembliesConfig)' == 'On' or ('@(WebReferenceUrl)'!='' and '$(_SGenGenerateSerializationAssembliesConfig)' == 'Auto')) se evaluó como ('Auto' == 'On' or (''!='' and 'Auto' == 'Auto')).
-Destino "_CleanGetCurrentAndPriorFileWrites" en el archivo "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" del proyecto "C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj" (el destino "IncrementalClean" depende de él):
+Destino "_CleanGetCurrentAndPriorFileWrites" en el archivo "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" del proyecto "C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj" (el destino "_CleanRecordFileWrites" depende de él):
 Usando la tarea "ReadLinesFromFile" del ensamblado "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
 Tarea "ReadLinesFromFile"
 Ejecución de la tarea "ReadLinesFromFile" terminada.
@@ -665,33 +592,26 @@ Usando la tarea "RemoveDuplicates" del ensamblado "Microsoft.Build.Tasks.v4.0, V
 Tarea "RemoveDuplicates"
 Ejecución de la tarea "RemoveDuplicates" terminada.
 Compilación terminada del destino "_CleanGetCurrentAndPriorFileWrites" en el proyecto "GroupBar_2010.csproj".
-Destino "IncrementalClean" en el archivo "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" del proyecto "C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj" (el destino "CoreBuild" depende de él):
-Tarea "FindUnderPath"
-  La ruta de comparación es "bin\Release\".
-Ejecución de la tarea "FindUnderPath" terminada.
-Tarea "FindUnderPath"
-  La ruta de comparación es "obj\Release\".
-Ejecución de la tarea "FindUnderPath" terminada.
-Tarea "Delete"
-Ejecución de la tarea "Delete" terminada.
+Destino "_CleanRecordFileWrites" en el archivo "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" del proyecto "C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj" (el destino "CoreBuild" depende de él):
 Tarea "RemoveDuplicates"
 Ejecución de la tarea "RemoveDuplicates" terminada.
+Tarea "MakeDir"
+Ejecución de la tarea "MakeDir" terminada.
 Usando la tarea "WriteLinesToFile" del ensamblado "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
 Tarea "WriteLinesToFile"
 Ejecución de la tarea "WriteLinesToFile" terminada.
-Compilación terminada del destino "IncrementalClean" en el proyecto "GroupBar_2010.csproj".
-Se omitió el destino "PostBuildEvent" debido a una condición falsa (False); ('$(PostBuildEvent)' != '' and ('$(RunPostBuildEvent)' != 'OnOutputUpdated' or '$(_AssemblyTimestampBeforeCompile)' != '$(_AssemblyTimestampAfterCompile)')) se evaluó como ('' != '' and ('' != 'OnOutputUpdated' or '' != '')).
-Destino "CoreBuild" en el archivo "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" del proyecto "C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj" (el destino "Build" depende de él):
-Compilación terminada del destino "CoreBuild" en el proyecto "GroupBar_2010.csproj".
-Destino "AfterBuild" en el archivo "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" del proyecto "C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj" (el destino "Build" depende de él):
-Compilación terminada del destino "AfterBuild" en el proyecto "GroupBar_2010.csproj".
-Destino "Build" en el archivo "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" del proyecto "C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj" (punto de entrada):
-Compilación terminada del destino "Build" en el proyecto "GroupBar_2010.csproj".
-Compilación del proyecto terminada "C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj" (destinos predeterminados).
+Compilación terminada del destino "_CleanRecordFileWrites" en el proyecto "GroupBar_2010.csproj".
+Compilación del proyecto terminada "C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj" (destinos predeterminados) -- ERROR.
 
 
-Compilación correcta.
+ERROR al compilar.
+
+"C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj" (destino predeterminado) (1) ->
+(CoreCompile destino) -> 
+  Form1.cs(13,7): error CS0246: No se puede encontrar el tipo o el nombre de espacio de nombres 'Algorithms' (¿falta una directiva using o una referencia de ensamblado?) [C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj]
+  Form1.cs(14,7): error CS0246: No se puede encontrar el tipo o el nombre de espacio de nombres 'Algorithms' (¿falta una directiva using o una referencia de ensamblado?) [C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\GroupBar_2010.csproj]
+
     0 Advertencia(s)
-    0 Errores
+    2 Errores
 
-Tiempo transcurrido 00:00:02.66
+Tiempo transcurrido 00:00:03.32

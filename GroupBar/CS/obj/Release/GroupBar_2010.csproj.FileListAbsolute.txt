@@ -1,8 +1,4 @@
-C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\bin\Release\GroupBarDemo_2005.exe
-C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\bin\Release\GroupBarDemo_2005.pdb
 C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\obj\Release\GroupBar_2010.csprojResolveAssemblyReference.cache
 C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\obj\Release\GroupBarDemo_2005.Form1.resources
 C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\obj\Release\GroupBarDemo_2005.Properties.Resources.resources
 C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\obj\Release\GroupBar_2010.csproj.GenerateResource.Cache
-C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\obj\Release\GroupBarDemo_2005.exe
-C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\cs\obj\Release\GroupBarDemo_2005.pdb

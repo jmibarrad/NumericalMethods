@@ -1,13 +1,17 @@
 C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\CS\bin\Debug\GroupBarDemo_2005.exe
 C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\CS\bin\Debug\GroupBarDemo_2005.pdb
+C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\CS\bin\Debug\Algorithms.dll
+C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\CS\bin\Debug\MathExpressions.NET.dll
+C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\CS\bin\Debug\Mono.Cecil.dll
+C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\CS\bin\Debug\GOLD Engine.dll
+C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\CS\bin\Debug\Algorithms.pdb
+C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\CS\bin\Debug\MathExpressions.NET.pdb
+C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\CS\obj\Debug\GroupBar_2013.csprojResolveAssemblyReference.cache
 C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\CS\obj\Debug\GroupBarDemo_2005.Form1.resources
 C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\CS\obj\Debug\GroupBar_2013.csproj.GenerateResource.Cache
 C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\CS\obj\Debug\GroupBarDemo_2005.exe
 C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\CS\obj\Debug\GroupBarDemo_2005.pdb
-C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\CS\obj\Debug\GroupBar_2013.csprojResolveAssemblyReference.cache
-C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\CS\bin\Debug\Algorithms.dll
-C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\CS\bin\Debug\Algorithms.pdb
-C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\CS\bin\Debug\MathExpressions.NET.dll
-C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\CS\bin\Debug\Mono.Cecil.dll
-C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\CS\bin\Debug\GOLD Engine.dll
-C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\CS\bin\Debug\MathExpressions.NET.pdb
+C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\CS\bin\Debug\MathNet.Numerics.dll
+C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\CS\bin\Debug\info.lundin.math.dll
+C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\CS\bin\Debug\MathNet.Numerics.xml
+C:\Users\JoséMario\AppData\Local\Syncfusion\EssentialStudio\13.1.0.21\Windows\Tools.Windows\Samples\GroupBar\GroupBar\CS\bin\Debug\Microsoft.VisualBasic.dll

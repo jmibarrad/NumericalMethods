@@ -20,7 +20,7 @@ namespace Algorithms
             for (var i = 0; i < x.Length-1; i++)
             {
                 xt = xt * (value - x[i]);
-                yi = yi + b[0, i + 1]*xt;
+                yi = yi + b[0, i + 1] * xt;
 
             }
 

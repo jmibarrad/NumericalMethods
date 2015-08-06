@@ -30,8 +30,15 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="info.lundin.math">
+      <HintPath>..\CS\packages\info.lundin.math.dll.1.1\lib\net45\info.lundin.math.dll</HintPath>
+    </Reference>
+    <Reference Include="MathNet.Numerics">
+      <HintPath>..\CS\packages\MathNet.Numerics.3.7.0\lib\net40\MathNet.Numerics.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
     <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -40,19 +47,32 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CuadraturaGauss.cs" />
+    <Compile Include="DescomposicionLU.cs" />
+    <Compile Include="DiffNumerica.cs" />
+    <Compile Include="Gauss.cs" />
     <Compile Include="InterpolacionLaGrange.cs" />
     <Compile Include="InterpolacionMedianteTrazadores.cs" />
     <Compile Include="InterpolanteDeNewton.cs" />
+    <Compile Include="Inversa.cs" />
     <Compile Include="MathParser.cs" />
     <Compile Include="MetodoDeBiseccion.cs" />
+    <Compile Include="MetodoEuler.cs" />
     <Compile Include="MetodoNewton.cs" />
     <Compile Include="MetodoSecante.cs" />
     <Compile Include="Muller.cs" />
     <Compile Include="PosicionFalsa.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="PuntoFijo.cs" />
+    <Compile Include="ReglaTrapecio.cs" />
+    <Compile Include="LineasFinitas.cs" />
+    <Compile Include="RegresionLineal.cs" />
+    <Compile Include="RungeKutta.cs" />
+    <Compile Include="RungeKutta2.cs" />
     <Compile Include="Services\CastInputs.cs" />
     <Compile Include="Services\ProcessLog.cs" />
+    <Compile Include="GaussJordan.cs" />
+    <Compile Include="Simpson.cs" />
     <Compile Include="TrazadorCubicoNatural.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -60,6 +80,9 @@
       <Project>{AE661528-AFC9-4CCA-9ABD-C173E9779085}</Project>
       <Name>MathExpressions.NET</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
